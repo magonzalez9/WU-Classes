@@ -1,0 +1,41 @@
+;Program the reads 5 numbers and then writes the lowest number first and then writes the highest number second 
+
+DATA #process 
+COPY DR,J0
+
+DATA #skip
+COPY DR,J1
+DATA #end
+COPY DR,J2
+SET R5,0 
+READ R0,DD   ;First input gets treated as both the maximum and the minimum
+COPY R0,R8
+COPY R0,R9
+
+#process		;Loop where the comparison happens
+INC R5,1		;Next 4 lines keep track of the number of inputs (5 limited)
+DATA 5
+SUB R5,DR
+JPIF DR,EZ,J2
+
+READ R1,DD	;Reads in number s
+COPY R8,R7	;Copy main register 1 to use value for computation
+SUB R1,R7
+JPIF R7,LZ,J1
+COPY R1,R8
+
+#skip
+COPY R9,R6	;Copy main register 2 to use value for computation 
+SUB R1,R6
+JPIF R6,GZ,J0
+COPY R1,R9
+JUMP #process
+
+#end
+WRITE R8,DD
+WRITE R9,DD
+HALT
+
+30A 9EA 313 9EB 318 9EC 250 C00 908 909 450 305 75E EEA C10 987 717 E71 918 996 716 E64 919 F0A D80 D90 000 
+ 
+

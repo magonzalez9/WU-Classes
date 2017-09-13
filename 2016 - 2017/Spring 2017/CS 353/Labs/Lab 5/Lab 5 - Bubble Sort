@@ -1,0 +1,97 @@
+; Bubble sort's letters, puts them in order
+
+#start
+DATA 46		; putting . into the register for testing
+COPY DR, R6	
+COPY DR, R7	
+DATA #setUp	; putting set up into a jump register
+COPY DR, J0
+DATA #outerLoop	; putting outer loop location in a jump register
+COPY DR, J1
+DATA #end 		; putting end location in a jump register
+COPY DR, J2
+DATA #swap	
+COPY DR, J3
+DATA #data		; sets up DR for reading input
+
+#readsInput
+READ R8, AD	; reads in a letter
+SUB R8, R6		; checks to see if it is . 
+JPIF R6, EZ, J0	; jumps if read variable = . 
+COPY R7, R6		
+INC R0, 1		; updating size 
+INC DR, 1		; updating place in storage
+STORE R8, DR
+JUMP #readsInput
+
+#setUp
+COPY R0, R5	; setting all js = the length initially
+COPY R5, R4		
+COPY R5, R6
+COPY R0, R1	; putting length into R1
+INC R1, -1		; finding length - 1
+INC R2, 1
+INC R3, 2
+DATA #write		; putting write into a jump register
+COPY DR, J0
+JUMP #outerLoop
+
+#outerLoop
+SUB R2, R1
+JPIF R1, LZ, J0
+INC R2, 1
+INC R3, 1
+COPY R6, R4
+COPY R6, R5
+COPY R0, R1
+INC R1, -1
+JUMP #innerLoop
+
+#innerLoop
+DATA #data
+ADD R5, DR
+LOAD R7, DR
+INC DR, -1
+LOAD R8, DR
+
+JPIF R8, EZ, J1		; checks to see if there is another element, otherwise jump
+
+SUB R7, R8
+JPIF R8, GZ, J3
+
+#doneSwap
+
+INC R5, -1
+COPY R5, R4
+
+JUMP #innerLoop
+	
+#swap 
+LOAD R8, DR		; this loads into R8
+STORE R7, DR		; stores the value in R7 into the place just loaded from R8
+INC DR, 1		           ; increment dr
+STORE R8, DR		; store value in R8 where R7 was
+JUMP #doneSwap
+	
+
+#end
+HALT
+
+#write 
+Data #data
+INC DR, 1
+JUMP #subwrite
+
+#subwrite
+LOAD R7, DR
+JPIF R7, EZ, J2
+WRITE R7, AD
+INC DR, 1
+JUMP #subwrite
+
+#data
+
+32E 9E6 9E7 314 9EA 31E 9EB 337 9EC 332 9ED 340 C82 786 E68 976
+400 4E0 B8E F0C 905 954 956 901 418 420 431 338 9EA F1E 721 E10
+420 430 964 965 901 418 F27 340 65E A7E 4E8 A8E E89 778 E87 458
+954 F27 A8E B7E 4E0 B8E F2F 000 340 4E0 F3B A7E E7A D72 4E0 F3B

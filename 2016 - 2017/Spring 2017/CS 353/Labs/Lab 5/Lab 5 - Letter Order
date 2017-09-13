@@ -1,0 +1,38 @@
+;Program reads in 15 letters and writes them in reverse order...
+
+DATA #next      ;Set up next loop
+COPY DR,J0
+DATA #end       ;Set up end loop
+COPY DR,J1
+SET R5,0 		
+DATA #data 	;Where letters will be stored
+COPY DR, R1
+
+#again
+INC R5,1		;Loop 15 times for 15 letters
+DATA 15
+SUB R5,DR
+JPIF DR,EZ,J0
+
+READ R0, AD ; These next four lines will store the letters in ram. 
+STORE R0, R1
+INC R1,1         ;Problem I am incrementing pointing R1 to zero 
+JUMP #again
+
+#next
+INC R1, -1	; Jump back to the last letter
+
+#loop
+LOAD R2, R1	;Loads data 
+JPIF R2,EZ,J1	;Stops writing once R2 points to null
+WRITE R2, AD
+INC R1,-1
+JUMP #loop
+
+#end
+HALT
+
+#data
+
+30F 9EA 315 9EB 250 316 9E1 450 30F 75E EE8 C02 B01 410 F07 418 
+A21 E29 D22 418 F10 000 

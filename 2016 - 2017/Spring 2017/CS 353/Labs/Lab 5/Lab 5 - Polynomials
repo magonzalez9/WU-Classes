@@ -1,0 +1,102 @@
+; Polynomial
+
+; Set up
+DATA #write
+COPY DR, J3
+
+#readOrder
+READ R4, DD
+INC R4, 1
+COPY R4, R5
+JUMP #readCoeff
+
+#readCoeff
+DATA #coeffs
+INC DR, 1 		; setting up indices so they work
+ADD R4, DR		; setting up location in RAM to be stored
+
+READ R6, DD
+STORE R6, DR		; storing coeff at location in RAM
+
+INC R4, -1		; incrementing R4 down
+DATA #readsInput	; putting location of readsInput into a JPIF
+COPY DR, J2
+JPIF R4, EZ, J2		; jumping to readsInput if no more Coeffs to read
+JUMP #readCoeff		; starting over if more 
+
+#readsInput
+READ R7, DD		; putting n into a register
+COPY R7, R0		; copying it into R0 for multiplication
+
+DATA #end 		; setting up for jump to end
+COPY DR, J2		
+JPIF R7, EZ, J2		; jump to end if n = 0
+COPY R5, R4		; copying j for incrementing
+JUMP #evaluate		; else jump to evaluate
+	
+#evaluate
+DATA #coeffs		; setting up to load in first coeff
+INC DR, 1
+ADD R4, DR
+LOAD R6, DR		; load in first coeff
+COPY R6, R8		; copying into total
+JUMP #subEval		; jump to subEval
+
+#subEval
+INC R4, -1
+JPIF R4, EZ, J3		; jumping to write if j = 0
+
+ZERO, R2		; setting up for multiplying, make R2 zeros again, and putting n in R0
+COPY R7, R0		
+
+COPY R8, R1		; putting total in R1 for multiplication
+JUMP #multiplication	; jump to multiplication
+#multiDone
+COPY R2, R8		; copying product into total
+
+DATA #coeffs		; finding next coeff location in RAM
+INC DR, 1 		
+ADD R4, DR		
+
+LOAD R6, DR		; load next coeff into R6
+ADD R6, R8
+;WRITE R8, DD		; this writes value each time evaluated
+JUMP #subEval
+
+#multiplication
+DATA #skip      ; set up J0 for skipping ADD
+COPY DR,J0
+DATA #multi     ; set up J1 for looping
+COPY DR,J1
+
+ZERO R2          ; R2 = total
+DATA 1             ; mask bit
+    
+#multi
+COPY DR,R3      ; ... in R3
+    
+AND  R1,R3      ; mask out rightmost bit of R1
+JPIF R3,EZ,J0   ; don't add if bit was 0
+ADD R0,R2       ; increase running total (bit was 1)
+    
+#skip
+SHIFT R0,-1     ; double the m'ee
+SHIFT R1,1      ; drop least sig bit of m'er
+JPIF R1,NZ,J1   ; loop back when m'er is > 0
+    
+;WRITE R2,DD     ; print out the answer
+JUMP #multiDone
+
+#write
+WRITE R8, DD
+JUMP #readsInput
+
+#end
+HALT 
+
+#coeffs
+
+338 9ED C40 440 945 F06 33B 4E0 64E C60 B6E 448 310 9EC E4A F06
+C70 970 33A 9EC E7A 954 F17 33B 4E0 64E A6E 968 F1D 448 E4B 120
+970 981 F2A 928 33B 4E0 64E A6E 668 F1D 334 9EA 330 9EB 120 301
+9E3 813 E38 602 508 510 E1D F23 D80 F10 000
