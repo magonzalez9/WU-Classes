@@ -1,0 +1,1352 @@
+bplist00Ò!_WebSubresources_WebMainResource¥Õ	
+_WebResourceData_WebResourceMIMEType_WebResourceTextEncodingName^WebResourceURL_WebResourceResponseO9/* just to get default settings */
+a {text-decoration:none;}
+:link,:visited { text-decoration:none; }
+
+a img,:link img,:visited img { border:none; }
+
+ul,ol {list-style:none; }
+
+h1 { font-size:1.7em; }  h2{ font-size:1.5em; } h3{ font-size:1.3em; } h4 { font-size:1.1em; } p { font-size:1.0em; }
+
+b {color:#219B18; } 
+i { color:#009933; font-weight:bold; }
+big {color:#66CC00; }
+em  {font-weight:bold; color:#FF9900;}
+
+p,h1,h2,h3,h4,h5,h6,ul,ol,li,blockquote,fieldset,input,img,pre,form,body,html,a,table,tr,td { margin:0; padding:0; border-style:none; }
+table {vertical-align:top;}
+/* div { border: 2px dotted red; }  */
+
+/* allgemeine Link Farben */
+a {font-size:1em; font-weight: bold;}
+a { color:#003399; } /* dunkelblau als grundfarbe */
+a:hover { color:#006699; } /* tuerkis #7C9CAA #006699*/
+a:active  { color:#444444; } /* grau */
+a:visited {color:#7C9CAA; } /* hell tuerkis-grau #7C9CAA #006699*/
+
+/* text-align:left;*/
+table  {
+border-spacing: 0px;
+border-collapse: separate;
+
+}
+.videoWrapper {
+
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	width:auto!important;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* Standard Reihenfolge */
+/*
+a {
+ font-family:Verdana,Arial,Helvetica;
+ font-weight:normal;
+ font-size:10pt;
+ color:#000000;
+ text-decoration:none;
+}
+
+a:visited {}
+a:focus {}
+a:hover {
+ color:#ffffff;
+ text-decoration:underline;}
+a:active {}
+
+*/
+
+/* grÃ¼n: #090 */
+
+
+
+html, body {
+color:#333333;
+background-color:#ffffff; /* helles gelb #fffff5*/
+
+/*font: 100%/120% Verdana, Arial, Helvetica, sans-serif;*/
+font-family: verdana, arial, helvetica, sans-serif;
+font-size:100.1%;}
+
+
+p { 
+
+font-family:"Lucida Grande", arial, helvetica, sans-serif;
+font-size:1.06em;
+/*font-size-adjust:none; nochmal klÃ¤ren*/
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:1.4em;
+
+letter-spacing:0em;
+word-spacing:0em;
+text-align:left; }
+
+
+/* h3:before {content:\00BB  ;}  >> Vor h3 einfÃ¼gen */
+div#content h3{
+/* Ãœberschrift im Text, padding um Raum zu schaffen */
+color:green;
+margin:1.6em 0 0.6em 0;
+padding:0.2em 0 0.2em 0.0em;
+font-size:1.1em; font-weight: bold;
+}
+
+div#content   p  {margin:0.1em 1em 0.6em 2em;}
+div#content  ol  {margin:0.6em 1.2em 0em 5.0em; list-style-type:decimal; 	list-style-position: inside;}
+div#content .psmall {font-size: 0.8em; line-height:1.2em; margin:0.2em 0em 0em 0em; text-align:justify;} /* fÃ¼r  */
+div#content .pbig {font-size: 0.9em; line-height:1.3em; margin:0.2em 0em 0em 0em; text-align:justify;} /* fÃ¼r  */
+div#content .pbig2 {margin:0.9em 0.5em 0.1em 0.4em; text-align:justify; line-height:1.3em;}
+
+div#content .pblue0 {color:#0033CC;} /* normal  */
+div#content .pblue1 {color:#0033CC; font-weight:bold;} /* fett , zur strukturierung, ohne Semantische Relevanz*/
+
+
+
+
+hr {
+color:white;
+height: 1px;
+margin:1.6em 0.0em 0em 0.0em;
+border-width:0px;
+border-bottom: 2px dotted #999;
+}
+
+div#nav hr {
+color:white;
+height: 1px;
+font-size:1.0em;
+margin:0.2em 0.4em 0em 1.6em;
+border-width:0px;
+border-bottom: 0px dotted #000000;
+}
+
+h3 {
+/* default fÃ¼r index Welcome Text */
+font-size:1.0em;
+color:#D9372F;
+
+}
+div#content h4 {
+/* default fÃ¼r index Welcome Text */
+font-size:1.1em;
+color:#009900;
+font-weight:bold;
+margin-bottom:0.2em;
+margin-top:0.4em;
+}
+/*
+h4 {
+ default fÃ¼r index Welcome Text 
+font-size:1.1em;
+color:#D9372F;
+font-weight:bold;
+letter-spacing:0.3em;}
+*/
+
+
+h5 {
+/* default fÃ¼r index Welcome Text */
+color:green;
+}
+
+#container {
+/* fÃ¼r den geamten Inhalt: head, content, nav ... */
+margin:0.2em 0.2em 0.2em 0.2em; max-width:80em;}
+
+
+/* Box rechts fÃ¼r Links und so */
+#boxr {
+margin: 1.6em 1.6em 0em 72em;
+padding: 0.2em;
+ width: 13em;
+border: 0.4em solid #003399;
+
+}
+#boxr p {padding: 0.2em; margin: 0.2em;  }
+
+/* Box links fÃ¼r logo  Farbe  des grÃ¼ns color:#A6D480; */
+#boxlg {
+margin: 0.6em 0em 0.2em 1.7em;
+padding: 0.0em;
+ width: 15em;
+border: none;}
+#boxlg p {padding: 0.2em; margin: 0.2em;  }
+#boxlg a  {font-size:0.9em;   }
+#boxlg a  img {margin: 0em 0em 0em 0em; padding-bottom: 0.4em; 	width:95%; 	height:95%; float:left;}
+
+#content {
+width:44em;
+margin:0.6em 1.6em 0em 24em;
+float: left;
+min-height:77em;
+}
+
+
+#content1 {
+/* bunter text auf index seite*/
+
+width:46em;
+overflow:visible; float:left;}
+#content2 {
+/* text und bild auf index seite*/
+margin:-1.8em 0em 0em 0em;
+width:20em;
+background-position:center center; background-repeat:no-repeat;
+overflow:visible; float:left;
+
+}
+
+#contentb {
+/* IQ Test 1 und 2 */
+margin:1em 0em 1em 0em;
+
+text-align:center;
+}
+#contentb p {
+margin:0em 0em 1.5em 0em;
+font-size:1.1em;
+line-height:1.6em;
+/* color:#333333;*/
+letter-spacing:0em;
+word-spacing:0em;
+text-align:center;}
+
+/* Listen bei puns.html */
+div#content li { margin: 0.0em 0em 0.6em 0em;}
+div#content ol {list-style-type:decimal; list-style-position:outside; margin: 1em 0em 0em 2.5em;}
+
+/* deaktiviert, da bei listen, siehe totes pferd die class anweisung Ã¼berschrieben wurde */
+div#contentxx ol p { font-size:0.9em; font-weight: normal; color:#D2D2D2; line-height:1.1em; }
+
+#content h2{
+/* Ãœberschrift im Text, padding um Raum zu schaffen */
+color:#666666;
+margin:1.8em 0 0.6em 0;
+padding:0.2em 0 0.2em 0.5em;
+font:bold 1.1em verdana, sans-serif;
+border-left:0.4em solid #009900;
+border-bottom:0.1em solid #009900;}
+
+#content p {margin:0.6em 1.2em 0em 1.2em;}
+
+#foot {
+clear:both;
+max-width:100%;
+
+margin:1em 0em 0em 0em;
+height: 40em;}
+
+
+#foot p{ text-align:justify; font-size:0.9em;}
+
+#nav {
+
+font-family:Tahoma,Arial,sans-serif;
+width:22em;
+height:0em;
+margin:2em 0em 0em 0em;
+float:left;}
+
+
+.nav1 a {padding:0em; color:#666666;  letter-spacing:0.1em; font-weight:bold; font-size: 0.9em; line-height:1.6em; }
+
+.nav1 a:visited {color:#888888; }
+.nav1 a:focus {color:#333333; }
+.nav1 a:hover {background-image:url(pfeil.jpg); background-position: center left; text-decoration:none; color:#CC3333; background-repeat:no-repeat;}
+.nav1 a:active { color:#FD8143; }
+
+#nav li.akta a{color: #94D480;}
+#nav li.aktb a{color: #DDDDDD;}
+#nav li.aktd a{}
+
+/* FÃ¼r texte in Menu Lsite, z.b 'Word for ...' */
+.aktz p {padding:0em; color:#666666;  letter-spacing:0.1em; font-weight:bold; font-size: 0.9em; line-height:1.4em; }
+
+
+.big1 {line-height:0.9em; font-size: 0.9em;}
+.big2 {line-height:0.6em; font-size: 0.6em;}
+.nav2 a {color:#E55533; margin:0em 0em 0em 2.0em; font-size: 0.95em; background:none; font-weight:bold;letter-spacing:0.03em; line-height:1.4em;  }
+
+.nav2 li { margin-bottom:0.5em; }
+
+
+.nav2 a:visited {color:#FCAA53; }
+.nav2 a:focus {color:#FD8143; }
+.nav2 a:hover {background-image:url(pfeilk.jpg); text-decoration:none; background-position: center left; color:#CC3333; background-repeat:no-repeat;}
+.nav2 a:active { color:#FD8143; }
+/* eigentlich sollte nur .ul in nav2 diese Anweisung haben,*/
+.nav2  {margin:0.3em 0em 0.4em 0.0em;}
+
+#header {
+vertical-align: top;
+margin: -2em 1.8em 0em 31px; height:5em;
+width:67em;
+}
+
+/* Bild oben links (NOS) */
+.bild1 {float: left; width: 14em; }
+/* menue pfeil */
+.bildm {border-style: none; border-color: white; border:0; }
+/* Links sprache lengl, Flagge einfÃ¼gen  (margin verschiebt den gesamten linktext, also padding anweden*/
+.bildl {height: 0.9em; width: 1.4em;}
+.lengl {padding:0em 1.8em 0em 0em; margin:0em 0.6em 0em 0em; background-image:url(../styles/english.png); background-position:center right; background-repeat:no-repeat;}
+
+
+/* menue innerhalb einer Seite clear:both;*/
+.mentop { clear:both;  font:normal 1em Verdana;  margin:0em 0em 1em 22em; width:55em; min-height:4em;  }
+.mentop a {font-weight:bold; letter-spacing:0.12em; margin:0em 0em 0em 2.0em; padding:0em 0em 0em 0em;  }
+.mentop a {color:#2A6699; }
+.mentop a:visited {color:#333333; }
+.mentop a:focus {color:#FD8143; }
+.mentop a:hover { color:#CC3333;}
+.mentop a:active { color:#666666; }
+.mentop ul  {}
+li.submen {display:inline; line-height:3em; white-space: nowrap; }
+
+li.submen :before { content:"\00BB \00a0"; color:#777777;}
+/* nicht gebraucht
+.mentop td {padding:0.0em 0em 0.0em 0.0em; margin:0.0em 0em 0.0em 0.0em; line-height:2.0em; border:0px none #FFFFFF; text-align:center; }
+.mentop p {text-align:center; line-height:2.0em; font-weight:200;}
+*/
+
+div#content p a:before {content:"\00BB \00a0"  ;} /* >> Vor a innerhlab von content einfÃ¼gen, geht nicht fÃ¼r mehr als ein element auf einmal */
+div#content td a:before {content:"\00BB \00a0"  ;} /* >> Vor a innerhlab von content einfÃ¼gen, geht nicht fÃ¼r mehr als ein element auf einmal */
+div#content h3 a:before {content:"\00BB \00a0"  ;} /* >> Vor a innerhlab von content einfÃ¼gen, geht nicht fÃ¼r mehr als ein element auf einmal */
+
+#header h1 {text-align:right; font-size: 1.7em; letter-spacing:0.1em; font-weight:bold; font-family:Tahoma,Arial,sans-serif;color:#666666;}
+#header h1:first-letter { font-size:120%; color:#CC3333;}
+#header h2 {text-align:right; font-size: 0.8em; letter-spacing:0.1em;  font-family:Tahoma,Arial,sans-serif; color:#009900;}
+#header p {text-align:right; font-size: 0.8em;  font-family:Tahoma,Arial,sans-serif; margin-left:25em; color:#009900;}
+#header h3 {text-align:right; font-size: 0.8em; letter-spacing:0.1em;  font-family:Tahoma,Arial,sans-serif; color:#009900;}
+div#content
+
+.st01{font:lighter		1.0em 	"Arial Narrow", Arial;  			color:#FF6666; letter-spacing:0.04em;}
+.st02{font:normal		1.0em 	"Arial Narrow", Arial;     	 		color:#ADC88A; }
+.st03{font:normal		1.0em 	"Microsoft Sans Serif", Geneva;   	color:#009900;}
+.st43{font:normal		1.0em 	"Microsoft Sans Serif", Geneva;   	color:#6B7184;}
+.st04{font:normal		1.0em 	Rockwell; 	       				color:#CC0033;}
+
+.st05{font:normal		1.0em 	"Times New Roman", Times; 	 		color:#CDC51D;}
+.st06{font:italic		1.0em 	"Lucida Console", Arial; 	 		color:#6699FF;}
+.st07{font:normal		1.0em 	"Bodoni Black"; 	       	 		color:#44C944;}
+.st08{font:normal		1.0em 	Modern, Arial; 		 			color:#FF6633;}
+.st09{font:normal		1.0em 	Verdana, Arial; 		 			color:#009999;}
+.st10{font:normal		1.0em 	"New Berolina"; 		 			color:#FF3333;}
+.st11{font:normal		1.0em 	"Courier New", Courier; 	 		color:#0000FF;}
+.st12{font:italic		1.0em 	"Comic Sans MS"; 		 			color:#336600;}
+.st13{font:normal		0.9em 	Tahoma; 			 				color:#999900; letter-spacing:0.06em;}
+.st14{font:normal		1.0em 	Monaco; 			 				color:#FF9900;}
+.st15{font:normal		1.0em 	"Bookman Old Style"; 	 			color:#B30047;}
+.st16{font:normal		1.0em 	"Century Gothic Old Style"; 		color:#009900;}
+.st17{font:lighter		1.0em 	"Bitstream Charter Times"; 	 		color:#C81E1C;}
+.st18{font:normal		1.0em 	"Palatino Linotype"; 	 			color:#DD8823;}
+.st19{font:normal		1.0em 	Verdana, Arial; 		 			color:#004080;}
+.st20{font:lighter		1em 	"Trebuchet MS", Helvetica;			color:#679D38;}
+.st21{font:lighter		1em 	"Trebuchet MS", Helvetica;			color:#B35812;}
+.st22{font:normal		1.0em 	"Arial Narrow", Arial;     	 		color:#666666;}
+.st23{font:normal		1.1em 	"Arial Narrow", Arial;		 		color:#60ADB5;}
+.st24{font:normal		1.1em 	"Lucida Sans Unicode", Arial; 		color:#F2B380;}
+
+.st31{color:#FF6666 !important;}
+.st32{color:#ADC88A !important;}
+/* Abwechselnd je Zeile*/
+.st33{color:#6B754D !important;}
+.st34{color:#6B956D !important;}
+
+.st35{color:#759090 !important;}
+.st36{color:#9090A5 !important;}
+
+/* grÃ¼n - orange*/
+.sto0 {color:#B35812 !important;}
+.sto1 {color:#A33812 !important;}
+.sto2 {color:#C35518 !important;}
+.sto3 {color:#E58942 !important;}
+.sto4 {color:#F2B380 !important;}
+.sto5 {color:#FCAF81 !important;}
+
+
+.stg0 {color:#6B754D !important;}
+.stg1 {color:#6B956D !important;}
+.stg2 {color:#8A8F57 !important;}
+.stg3 {color:#A6A78A !important;}
+.stg4 {color:#A0A783 !important;}
+.stg5 {color:#C7CEAC !important;}
+
+
+.intend1  {margin-left:2em;}
+
+/* Ausrichtung von Text*/
+.txright {text-align:right;}
+.txleft {text-align:left;}
+.txcent {text-align:center;}
+.txjust {text-align:justify;}
+
+.su01{color:#FF6666 !important;}
+.su02{color:#6EBF03 !important;}
+.su03{color:#CC0033 !important;}
+.su04{color:#009900 !important;}
+.su05{color:#CDC51D !important;}
+.su06{color:#6699FF !important;}
+.su07{color:#44C944 !important;}
+.su08{color:#FF6633 !important;}
+.su09{color:#009999 !important;}
+.su10{color:#FF3333 !important;}
+.su11{color:#0000FF !important;}
+.su12{color:#336600 !important;}
+.su13{color:#999900 !important;}
+.su14{color:#FF9900 !important;}
+.su15{color:#B30047 !important;}
+.su16{color:#009900 !important;}
+.su17{color:#C81E1C !important;}
+.su18{color:#DD8823 !important;}
+.su19{color:#004080 !important;}
+.su20{color:#679D38 !important;}
+.su21{color:#B35812 !important;}
+.su22{color:#666666 !important;}
+.su23{color:#60ADB5 !important;}
+.su24{color:#F2B380 !important;}
+
+/* 
+Century Gothic Old Style #671E04 
+Webdings
+Trebuchet MS
+#C81E1C
+#60ADB5
+#DD8823  
+#679D38
+*/
+.linkf  a {
+color:#FF9900; font-size: 0.8em; font-weight:normal;
+margin:4.3em 0em 0em 2.3em;
+}
+
+div.bild-down img {float:left; margin:0.4em 2em 2em 0em;}
+div.bild-spruch img {float:right; margin:-0.6em -8.6em 0em 0em;}
+
+
+
+
+
+/* fÃ¼r bilder mit rechts neben logo mt rahmen
+div.bild21 {  position:absolute; top:4px; left:270px;  clip:rect(0px, 66px, 111px, 20px); }
+
+
+*/
+
+
+div.bild21 {  position:absolute; top:4px; left:278px;  clip:rect(0px, 52px, 111px, 2px); }
+div.bild21 p {font-size:0.7em;}
+
+
+@media (max-width: 32.438em) {
+
+	.nav1 li  {
+		display:block;
+		width: auto;
+		font-size:1.2em;
+
+		
+	}
+
+	.nav1 a {
+		padding: 0.5em;		
+	}
+	
+	#content {
+width:auto;
+margin:0.6em 1.6em 0em 1em;
+clear:both;
+
+}
+
+#nav {
+
+font-family:Tahoma,Arial,sans-serif;
+width:auto;
+height:auto;
+margin:0em 0em 0em 0em;
+clear:both;}
+
+
+#boxlg {
+margin: 0.8em 0em 0em 0.7em;
+padding: 0.0em;
+ width: auto;
+border: none;}
+
+#boxlg a  img {margin: 0em 1em 0em 1em; 	width:98%; 	height:98%; clear:both;}
+#header {
+vertical-align: top;
+margin:0.2em 0em 2.4em 0.2em; 
+width:auto;
+clear:both;
+}
+#header h1 {font-size:1.3em; margin-top:1.0em; display:block;}
+#foot {
+width:98%;
+
+margin:1em 0em 0em 0em;
+height: 20em;}
+#content  {margin-left:0.1em!important;}
+#content  p {margin-left:1.2em!important; margin-right:0.2em!important;}
+
+/* 
+
+
+#content  li {margin-left:0.0em!important; margin-right:0.0em!important;}
+#content  ol {margin-left:1.8em!important; margin-right:0.0em!important;}
+.mentop a {font-weight:bold; letter-spacing:0.12em; margin:0em 0em 0em 2.7em; padding:0em 0em 0em 0em;}
+*/
+
+
+.mentop li {display:block; margin:0em 0em 0.7em 0em; padding:0em 0em 0em 0em; line-height:inherit;}
+.mentop { margin:0.6em 0.2em 1em 0.2em; width:99%; }
+
+#boxlg a img  {width:50%;}
+#content p      {  font-size:107%;}
+#content  li  {  font-size:107%;}
+#content  td  {  font-size:104%;}
+
+
+	}
+	
+	
+.navf {margin:3.8em 0em 0em 1.9em;	}
+
+.navf li {margin-bottom:1.4em; 	}
+
+
+
+	Xtext/cssUutf-8_.http://www.smart-words.org/styles/formatsx.cssOqbplist00ÔklX$versionX$objectsY$archiverT$top † ¯ #)*0123MNOPQRSTUVWXYZ[\]^_`aefU$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_.http://www.smart-words.org/styles/formatsx.cssÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¿™ïa¾¶ ÈÓ456ALWNS.keysZNS.objectsª789:;<=>?@€	€
+€€€€€€€€ªBCDEFGHIJK€€€€€€€€€€€VServer\Content-TypeZConnection]Last-Modified]Accept-RangesTDate_Content-Encoding^Content-Length]Cache-ControlTVaryVApache_text/css; charset=utf-8Zkeep-alive_Sun, 01 Jan 2017 13:15:25 GMTUbytes_Fri, 20 Oct 2017 08:36:23 GMTTgzipT4490_'max-age=604800, public, must-revalidate_Accept-EncodingÒ+,bc_NSMutableDictionary£bd/\NSDictionaryXtext/cssÒ+,gh_NSHTTPURLResponse£ij/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑmn_WebResourceResponse€    # - 2 7 Z ` { ~ ‚ … ˆ ‹  ’ ™ œ Ÿ ¢ ¥ ¨ ª ¬ ® ° ² ³ µ · ¹ » ½ ¿ Á È Ğ Ü Ş à â#,25>GIKRZeprtvxz|~€‚„‘“•—™›Ÿ¡£¥¬¹ÄÒàåø!;FflŒ‘–ÀÒ×íñş $8FX[q             o              sÕ	O
+½a{text-decoration:none;}
+:link,:visited{text-decoration:none;}
+a img,:link img,:visited img{border:none;}
+ul,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6,pre,code{font-size:1.2em;}
+p,h1,h2,h3,h4,h5,h6,ul,ol,li,blockquote,fieldset,input,img,pre,form,body,html,a,table,tr,td{margin:0;padding:0;border-style:none;}
+a{font-size:1em;font-weight:bold;}
+a{color:#888888;}
+a:hover, a:active{color:#D25;}
+body{color:black;background-color:white;font-family:Verdana,Arial,sans-serif;font-size:0.9em;}
+p{font-size:0.9em;line-height:1.5em;color:#333333;letter-spacing:0em;word-spacing:0em;text-align:left;}
+h3{font-size:1.8em;color:#D9372F;font-weight:bold;text-transform:capitalize;font-variant:small-caps;letter-spacing:0.3em;}
+#container{margin:0% 1% 1% 1%;}
+#content1{float:left;}
+#content2{margin:-1.8em 0em 0em 0em;width:20em;background-position:center center;background-repeat:no-repeat;overflow:visible;float:left;}
+#contenta{margin:0em 1.8em 0em 14em;}
+#content{margin:3em 1.8em 0em 0em;}
+#contentb{margin:1em 0em 1em 0em;text-align:center;}
+#contentb p{margin:0em 0em 1.5em 0em;font-size:1.1em;line-height:1.6em;letter-spacing:0em;word-spacing:0em;text-align:center;}
+#content{width:60em;margin:0.6em 1.6em 0em 4em;float:left;}
+div#content li{margin:0.0em 0em 0.6em 0em;}
+div#content ol{list-style-type:decimal;list-style-position:outside;margin:1em 0em 0em 2.5em;}
+div#content ol p{font-size:0.9em;font-weight:normal;color:#D2D2D2;line-height:1.1em;}
+#content h1{color:#666666;margin:1.8em 0 0.6em 0;padding:0.2em 0 0.2em 0.5em;font:bold 1.1em verdana, sans-serif;border-left:0.4em solid #003399;border-bottom:0.1em solid #003399;}
+#content p{margin:0.6em 1.2em 0em 1.2em;}
+#foot{clear:both;display:none;}
+#boxlg{display:none;}
+#foot p{text-align:center;}
+#nav{display:none;width:0;height:0;}
+.nav1 a{padding:0em;color:#777777;letter-spacing:0.1em;font-weight:bold;width:100%;}
+.nav1 a:hover{background-image:url(pfeil.jpg);background-position:center left;text-decoration:none;color:#CC3333;background-repeat:no-repeat;}
+.nav2 a{margin:0.2em 0 0.2em 2.6em;font-size:0.8em;background:none;font-weight:bold;letter-spacing:0.07em;width:100%;}
+.nav2 a:link{color:#FD8143;}
+.nav2 a:visited{color:#FD8143;}
+.nav2 a:hover{background-image:url(pfeilk.jpg);text-decoration:none;background-position:center left;color:#CC3333;background-repeat:no-repeat;}
+.nav2 a:active{color:#FD8143;}
+.mentop{display:none;width:0;height:0;}
+#header{vertical-align:top;margin:0;height:2em;}
+.bild1{float:left;position:relative;top:0.2em;left:0em;display:none;}
+.bildm{border-style:none;border-color:white;border:0;display:none;}
+#header h1{text-align:center;font-size:1.7em;letter-spacing:0.1em;font-weight:bold;font-family:Tahoma,Arial,sans-serif;color:#CC3333;}
+img{display:none;}_-http://www.smart-words.org/styles/formatp.cssOobplist00ÔklX$versionX$objectsY$archiverT$top † ¯ #)*0123MNOPQRSTUVWXYZ[\]^_`aefU$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_-http://www.smart-words.org/styles/formatp.cssÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¿™ïa¾ÆX ÈÓ456ALWNS.keysZNS.objectsª789:;<=>?@€	€
+€€€€€€€€ªBCDEFGHIJK€€€€€€€€€€€VServer\Content-TypeZConnection]Last-Modified]Accept-RangesTDate_Content-Encoding^Content-Length]Cache-ControlTVaryVApache_text/css; charset=utf-8Zkeep-alive_Sat, 17 Dec 2016 16:52:23 GMTUbytes_Fri, 20 Oct 2017 08:36:23 GMTTgzipS964_'max-age=604800, public, must-revalidate_Accept-EncodingÒ+,bc_NSMutableDictionary£bd/\NSDictionaryXtext/cssÒ+,gh_NSHTTPURLResponse£ij/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑmn_WebResourceResponse€    # - 2 7 Z ` { ~ ‚ … ˆ ‹  ’ ™ œ Ÿ ¢ ¥ ¨ ª ¬ ® ° ² ³ µ · ¹ » ½ ¿ Á È Ğ Ü Ş à â"+14=FHJQYdoqsuwy{}ƒ’”–˜šœ ¢¤«¸ÃÑßä÷ :Eek‹”¾ĞÕëïü
+"6DVYo             o              qÔ	O®‰PNG
+
+   IHDR     K   YOòÂ   ÀPLTE #ÿ 4ş x‘‰r9ãMı- £M%K­'RÏ6YÊ;S•?`¾AháAiúIJmÎJÂ(Sp®WyÆY}ÙYşZíf“ÿf¹Hhªri‰½jŒÜl~pm“ïsŸşt’œy¡ğzŞœÂƒ¨ß†˜d¥•‘±Ä™Ûœ´z¸«¤´_ª¿•¬ó±Ãn¶Êƒ·Â;¾ÏUÁÓmËş ÌÕ2ÎŞVàè,çÅ“ëÿ íñüşüş€ıÿ şİjÿñLÿş!ÿÿ #[1O  ©IDATxÚí›y{›º‡íÄÉñ	Ç`¨MÀÜx‰—z«M—$óı¿Õ±i$À‰“æöÜç?Ú ’æ7¯f$!p#¬z4j5šGÍãs<"HKë³ŠQá
+¼Y§´ÄG|×û!÷Ë—ûP¬„MızƒGE‰(ÿ—ğ€—æığşş<’oÑsã¯à¥ñ£”Çkã?ÿ¿¤|)I ¨x›2òZåÑüQ–ÑkSæ!Ù+Ø—Ó¾üœÈï7ˆDIÊt?>‰Æ_‡ÃÛ§7xHÙ×
+^½4Ãáğ[Hz‹Uw%ME0Æ»‹oPİl†ß^yÇˆÎ#”»¾ys5jşMÑ¾6ÛÃÖÍ_çyÈÙ€çWÃ;zİ\›W24Øª-b@ÒTTÔøàîªZˆà±y¯µ¸æ¸…›v.…óh6ê*4¯Ì+zå±ğò61Ôàg9ÏC|ù-/,®ÈEYSA°–„‡ÔºÌV0gİÂTÇGÜ´#ğ@ÃHÿR¯Í‹HÆ÷ğ`é 	<DMEq“ğZˆåÂ3¸»Z¿q¢gÆÖ´-óˆ.çpŞĞ9çı<~6¯†™‡-òˆ
+<h|H-$ÁúÜ	á=“>Âãc.Î—’Óğ@ÏàõYQ\€R(÷;ÀšŒ6€Å÷ª|sùò~¼|üÀUÅ+­u†Çwqö´q ÓoÎä‹¬ˆz¾¹®l!‚›+Cò…µ°lx<7ØxJ£úµÁR±-LİëfóZâñS^[´4×h\SÒ¬VüUà‘ˆ CÏM£quÓ‚*MEØ=Mœƒ ªœ oš­1áÁÔ5Ÿäù%~)¬}(›æÍ'Lç×c•‹¨B|È—
+ç²¢·Zˆ^QãªĞäGo!TÖÓæú„¢‚WÕ.á}ğøëË–ëõşÇùç¹—šÀã¿5ƒšGÍ£æQó¨yÔ<j5šGÍ£æñÈ#}vşcõ…—¥~£³<°èñ¡w‹Gozü#D`·Û	/6»İQØXÏ?bÀ/€İ-?zş×‰ªöcàáöVØ±dJ„W­··ÓOñx³~ÎPLï¶÷0]­¦øïv÷U@°İªï?··¤ÿ!d:( ¼üox LÛíŞ.Û~¶{·Ç¯â´*ÚÆşo½°k÷zí¹ğĞnnüh·ßË#l÷ÚY·a@ïâÓ¯áµÛåYA¯×ãùxÚ{ [áôì‹y`x‰ÔB{æ·ò«x 
+Ò íŞ$WÅ*î>ËcõN=1 h²/ÎŒÕ<|Ö+Äı£ h÷Ét¹„G»¯ˆ3}·ß.yÑÂÒ *<*îdµ‘G·Št”)w_éÂQQò€E)YŸDaµ-*)öRY_Œ•òè"Ú2(ì-_şË?i»ñ‰_şn.8ÆÅŠoú\\Ä%¥je}.Æø7êç2e*zø’)ÁV~%B­±fla%¼™óe­9~¿+³Ï>
+€N×g»~§Ûív¦Ø<ÀJ‰Oú\'¹Ñí ]÷ñÙJé²oĞÁäè–¬TÚ$–TÆÈ AW9o¢i76ÕßÑ7˜ÄV65$ÂÙuÂ#âZÇ!y_™§}e'¿dr>Œ;¡®¢ôñ³€)Šø¸¾ívÈÊuû<·:Ø4+Íx„­Â
+tZ¥<Ğçôzò'êê¦ıBX1[+f>5”ÚJ¼À“X,şÉ%v©Ë=Ïy»ºV$£ªcuÖBÓV §'GMÓ„åRWÓWI¼®4-ı¸PµU¤ù¢é~U¾€ªÏ2÷55±‘ë:OÒ?f¦´€÷·•x­iãØš?V5<[eÑ×g°c¯kİ|jåë±±¦k‹ÒO„™F•Õe¸gZ¥.Òç>»'¬izU,u-n¬¿PÇ)DÓüªw¨ètŠ8qŸb-ò`GËã¸,nlÅ^Å^Ç¹Œ7FzÆc¯¡¾¤>èz^Ÿ¬×Gš®«£U±ë@i³,«Cu¤ó×µçq¤ı„A0Ë5Ğ5^.TÕÊ§*Ô©†‰+ª¶`=ÀÄÆ]íkœ0"åÀWQFTb‹Õ™ñr3óçÅ"Vj/ó@N{‰èš:Úâ«êHåª#ƒ}5ÖGÜÏ™j¯¶¼¾áÓÇÕ¨æ7cm(2.=´Ò¹Š•a|¼†™‘İlE(‚Jƒóàòğú:†²ç}¦ª†®ª±¡c¶:sãÆˆ›@!„Çf¶!^ó[pGªÄHÏğ #
+›ÄGğú†F©Ÿ†>Z44•[1G">Elc“óà-À~³‡Šı `óhš¶m˜^üÎ^O>í1?Y6”n¶`úÙ9{&LC¦Y½3ÛŒGª‘»¥ãÚÄgÓ÷Eí”•`#Ş'X/ã13Ì  \Ş/ŒoùÓ°Ç¼ø±!<ŒY9qA´1(Uå>»ŸE0Ì)8òZ°7Mqá³1îÒQXè;tšÛpiÇâò¶lÿ4„0Fò1j`ïi|kÛ–×¿¿ß,f,Ær{ó~‘iĞ}ß4“­ØØØ“ˆŞä´Á¿…Å4ÂJ5Áj}g†G3ã'ÙIšQË÷“Ñ±Ğ¶ÙBè<XTØƒô˜=R{1jÏğÀ>dak§!€=éìqâu¸ohÖıäô$­eÆƒåÊr`:æÀ\ÓÍÑ”GÉG{'#ç@l8KÂÃ¡ãÇf`óíŞgóÓšğ õsf+b €íÌ³ØK¼0p6„‡#ód<¨VÛK<x#Ìåı|0pLk°i=AàË@™CïãÁÚr&AöÁš®â¬s<NŞÆ:Y?ÃÜ¶€]Í·
+aãHùâ;ƒÊ´Êùâl¥çŞàğ8pGOAÒoOœ‰ó^.2°œ%Ù¨æZgy€…¢}ËÊ'ÅÒ±xÛ'r_Ø:éà"je•„ñÔ¢<òáí`0F­#k$<,jcRÅc-ˆ„¹3É².á‡$×Ü,õ-gNV¸–sÆñ¹ç¥ó­ Uâ9ºq‚a²ö²r“åm¥|±&“‹xÌ½	İp´¼ñcu·‚½ê-E1ü\—iI’…öÁI½dñÇóÓ-S”ñ@ï]1}×Ëmx”‡Gyxœ‡ç‘Á«O8ï"¾åù{"aïy¾g‘ßqÂÖ¥î0‚a‰ÖÅztèM2¡E–uq~Áˆ[Èç^f,—òp+xÌó c!8ñWâáå>‘¶Xğº“¹ç
+/¦\Œ¾|æ,7ËÑ†½»æåÖnÆ#Âæ\í)÷•¿o°<wùƒ+,y…s<\Îãàb±ôiæhzRª‘ù{–ö*{•±®»Ìö×Íc[âj1RQk™ñ`–ªeÎz+±ÏœÒéò4©²QÍ°Ê6­îZëk Ù…y°ñàtîÍ2jxÂ¼ˆ±æÄÉµëzÉÖzæò}™½‡à’}ã¥åësNjªÅ2~qÿğ\Õù|bá_”Úy¸$QF6V·¬âÔŒ¤1d×kïTÉÇ!‚X [¡4Ü¯­ØšçREö!+€Ny–å…àf< ˆ$iàT|ƒ˜y~È~°{†Ç„şÖdÎ4ºVÊ°µÒQJ¨Ÿø‹…¬j˜ÜÂàÇ®ôà…i’X‹ƒ’ç–d+Jâ‡‰b±Ëyä7ğX†…ıÓt¹æo—ËCPx_ğöIÜÀép8%›ü§%_qø'?¬~µôæw ¹ÜSbíÜ´˜,>8à!ì]ŠÏs  Ÿù‘‹ø{”3Å¢ßğİÄ»¤Vƒâ¯aêï¥Â7÷?jõQó¨yÔ<jŸ=şE¿ñôÃ»„    IEND®B`‚Yimage/png_#http://www.smart-words.org/logo.pngOJbplist00ÔjkX$versionX$objectsY$archiverT$top † ¯#)*0123MNOPQRSTUVWXYZ[\]^_`aeU$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_#http://www.smart-words.org/logo.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¿™ïa¾Ù' ÈÓ456ALWNS.keysZNS.objectsª789:;<=>?@€	€
+€€€€€€€€ªBDEFGHIJK€€€€€€€€€€€VServer\Content-TypeZConnection]Last-Modified]Accept-RangesTDate_Content-Encoding^Content-Length]Cache-ControlTVaryVApacheYimage/pngZkeep-alive_Fri, 23 Dec 2016 17:20:09 GMTUbytes_Fri, 20 Oct 2017 08:36:23 GMTTgzipT3269_'max-age=604800, public, must-revalidate_Accept-EncodingÒ+,bc_NSMutableDictionary£bd/\NSDictionaryÒ+,fg_NSHTTPURLResponse£hi/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑlm_WebResourceResponse€    # - 2 7 Y _ z }  „ ‡ Š  ‘ ˜ ›  ¡ ¤ § © « ­ ¯ ± ² ´ ¶ ¸ º ¼ ¾ À Ç Ï Û İ ß á &)2;=?FNYdfhjlnprtvxƒ…‡‰‹‘“•—™ ­¸ÆÔÙìû	*JPpuz¤¶»ÑÕâçûÿ!36L             n              NÔ	O@GIF89a  ‘     ÿÿÿÿÿÿ   !ù   ,       ”©Ëí£œ´Ú‹³Ş¼ûV  ;Yimage/gif_+http://www.smart-words.org/styles/pfeil.gifObplist00ÔbcX$versionX$objectsY$archiverT$top † ¯#)*0123IJKLMNOPQRSTUVWXY]U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_+http://www.smart-words.org/styles/pfeil.gifÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¿™ïa¾ê¸ ÈÓ456?HWNS.keysZNS.objects¨789:;<=>€	€
+€€€€€€¨@BCDEFG€€€€€€€€€VServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-Length]Cache-ControlZConnectionVApacheYimage/gif_Thu, 22 Sep 2011 15:07:45 GMTUbytes_Fri, 20 Oct 2017 08:36:23 GMTR64_'max-age=604800, public, must-revalidateZkeep-aliveÒ+,Z[_NSMutableDictionary£Z\/\NSDictionaryÒ+,^__NSHTTPURLResponse£`a/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑde_WebResourceResponse€    # - 2 7 U [ v y } € ƒ † Š  ” — š    £ ¥ § © « ­ ® ° ² ´ ¶ ¸ º ¼ Ã Ë × Ù Û İ$*-6?ACJR]fhjlnprtvƒ…‡‰‹‘˜¥³ÁÆÕãîõÿ%EHr}‚˜œ©®ÂÆÚèúı             f              Ô	 OW%‰PNG
+
+   IHDR  -  (   ’ú+ó   tEXtSoftware Adobe ImageReadyqÉe<  çiTXtXML:com.adobe.xmp     <?xpacket begin="ï»¿" id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmp:CreatorTool="Adobe Photoshop CS6 (Windows)" xmp:CreateDate="2014-03-06T23:28:35+01:00" xmp:ModifyDate="2014-03-06T23:33:01+01:00" xmp:MetadataDate="2014-03-06T23:33:01+01:00" dc:format="image/png" xmpMM:InstanceID="xmp.iid:465A7992A57F11E3989AC01388F419D7" xmpMM:DocumentID="xmp.did:465A7993A57F11E3989AC01388F419D7"> <xmpMM:DerivedFrom stRef:instanceID="xmp.iid:465A7990A57F11E3989AC01388F419D7" stRef:documentID="xmp.did:465A7991A57F11E3989AC01388F419D7"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end="r"?>¾í/¿   0PLTE¢·_ÿÿÿ%£''Íó\§ÙYªáô}´×sıôÈÂU›àöúÎ¶Õñº{š¾§¹Ê‚[  R˜IDATxÚì]‰‚£ ÅzU@üÿ¿]rZ¯¶j»SØ™Ö£UŒ/	<_T‘[n{›Ê][¶–Ü²µä–­%·ÿÌZªÜr[j»­Eß¤ÿªğwv?{ùW¬EÏØÊVÓñ¯Y6ú­×ÎmšÛÇšN.Âªµèé5Ôbsà2¶¢Ğ‚©ÌÒŒ‘êgÎL­ôÌ>¼n·7v×G~á^O¤W¿X¿Øú˜ş¼è²ı&ÄT¯E¹Shy\ô8nÑÏ_³|9¿ÊNva‹,V>P/Ä-“ÀäÁ¹ÍIzÉ<qvÙØÎ0˜çs"=.+ğ¡Ÿ¸Œú]`Ñ×ßp9n™ì¾ÇZïq=ozùºë­”üoõFeì9<nÑû"—GìÑÏ\}\¸›mà\İÄ–Yß w]%]ÍÎéıç%Ç”Mæx[ÑÏy¢ÉˆÊlR´šèdœfŞvFC9Õü°Şßˆ[>›Òœ9Ş’çÎr›àG¶–Ü6­EgkÉílÑÙZrË(·l-¹ekÉí¿°­%·Œ-¹c-:[Kn[rËÖ’ÛÇ¬%åæ–±%·l-¹}ÜZò<Qn[rËÖ’[¶–«šîTß¨®=ô_Úöˆ£ÈÖ²÷:…ÿ†'._ jı:ùÕ>¾]3	İuOXKÜ¶Â£níæQdk9/êom“›Ü®né?ÖVJÁ¯®=[à#ıûá¹OÈÖr€wéKéÀ.ñ—¤£ká×áÇÛ[Ó}Mà1»y¸¸ÖéŠ×6l×Z^ÕÚïÂ†*î¬FØbéÀı«Š¶Ñğ±™?ÂN¡yo\2¤K²µ¼|tÕ}G*4¹¸q.¼_hÅÑÅ ÏPùËP7˜…×¸íğF*…V×¢Iá*İÙ`fr lpìüh[1(ÿ=Ş8l²~ØkØ©j	‰*6tZ’­åmlQáöFÂl-İPÙ"Ç-~?Œa´l4r:Ş4EH&ÒÇÓU?µ`ö7m²m²¾"‘mğ•MÏ	¾]ÎŒ¾Z–dk9 [ğÖÕô	îùB ‚Ó6¼¥ØÑa#›FZÁ^•'6ÚĞ¯ïÂöàÛTÄ–p âÌlØÖN¢\+¨CÖİ
+¨)†úœ®SôJıY¶–wâ–6Ü¶clÁ+(H±¥Ã¤‡nÙl¡`ÇÇ¹…«àÈ,}©¶UÍ, ã}¶l£\›Ä»]4B¡0…Ã'ç×XˆÏeÉ·ZK÷`‹M¢Èbºˆ-Êˆ¥qK  ´›¸yü`º’	ã‰& ¦àZFàˆÀØBN…·Mâ–4˜§8ÚÉc¹$<	¯T/ùBkéşOlÇŞ`Ë$'B 	9‘–æ[0WÑıqÃŠ3JyÚ˜rÅ”ˆ  âFÜvä=g±÷è‰ÉQÅ¹yÎ‰ŞjÔ}Zs7z¤±6¬ˆã6Úê¸Ì†q;ƒÑˆYÖjYmã ìÀ¯­µ£ıâğw%Û&Ç3ŞÆ†cµ¼©ß¢"Y’­%·<:—ÛXK—­%·Œ-¹l-]¶–ÜÁ0˜.÷SnÙåv¨µtÿÇXnn[rûï¢Ü·ä–±%·w¬¥Ë£s¹½…-Œ¸¼óî6¦îôK|ÓæÖ”õxÑhro²òÛpˆWx¢cs"ÓØkñ‹´]1²_¸#ƒ>Ôé²±z[ekùã–n´ê5OänÃíV#v¨Û­q7ƒoµ‘¥îv»e­Ëû­±~)àÏÍÅİü5Z‹.ı
+ •¸JÑ»O48¸ÆÂ4`üşHèı­PÂŠÃ¿¯4eÙ;ÿ>»,,òïø5¼1VX[ZïpŸşòúmlÑ`-ïáZ°Å¿„xY1f€'ÂŞ†¾÷/Á¿«Å5ğ¿¨`ÿ£à3[mûci<şÚveGáíıkñ6 ÆáÏŞhMozİó*íÀFŒÅwö¹>néŞÎ‰Üö%ZaÜ‚ öŒ‚zÛC#¼‰+üíÔà¿X…¨|Ğ?ù¯†Ó€*trüxˆÇ[KÏ?Ş,¼·Şü1ôğZ—ôÚƒüG $²gZK7›MœÔkØ¢ká¸{[+qoëÁ{šAŒ·õ <Ñ Ê›X¸#t Ÿhı îÑñ¡i|+Ç¯O°–Ş_yşakq½‘oíÃƒ8"ZØ÷çZË¶A'ØR”@MÙ&÷&í#ƒØâÿ­ŠÖRì,†õ„-x:e3ôÉñ›³°b‘Ş ¶ 7‚.%kÏdĞlíZöüŠ-*`Â÷­NïÍV÷7Û‹µ@ŒÓâÅ©1Ša{ó›ÍÜ\á„à•?Œ»À‹Î\…-Ä³·€÷1ÛgüO¿|è‚¦u.¶tÕ’'êÅ9½Õ1­IîMÈ”š\åDA˜ƒI¹a*)ˆdMŸˆYü`¼9‘?FİêSãbÉ‰LÁù‘G‡d!¦KŸÀ–#<ÑZ·ŞY~6CÏÄØd‡¹ Yœ±ãã?ıáëğF/wëµt÷Ñ9hwûZi®ñƒáÓ÷Î}œ¥¿×Z¼©ÈèâÏYËÂ¬bæ·¬4kì„×±¥ËŒ…ÜŒr»l-¹íÄ–ÌËmoÜÒá¿ÜO¹íÈ‰NÀ=—ä¬ÎNÇ»Æ¼)uıD´ş¾<Í…¹’bÿ;²§gíâk™ôÊõÖòÔ¬‹­å*lÑ·g­eJc™°ê®'¹èÛ÷YÏÆı÷Øˆs0ŸÒÒ$OQq×Fº‹Ã–®Ä™#œ…	óCÌ¥S8a3æâ-7œà¼ºÇd=<u”»Yâd!‹úQ°E¨|HAüï°…‰sÈ‰ƒŸÈ¡#]Ã<4màgîZëZ-d*#˜VQíjùÈ+°EÎæ27'³ğ
+o'mZoĞetÒuÄ¡ò1ñØòö"p>LvcŸKmœ†¥p£”sú{¦‰{& ™Î¿UÈ0±ñ#¯ˆ[ôåÔ=&rÊ%sS”mÒrêš£˜`v¶¼Ío!îSÍüÄ`-ÈSˆÖâMÅÍ!ƒVuQ$ì‘Ğ+ÃPŞˆ‹Ô—07O¾ÕÃÙ\d*DÖ+œ
+´÷†şY! Æ¸…©|R¯Ç–êl!îÊ[Š1¶¦ŸÑU³Øâï´¸t”¹²©®²–p6WÍ)2Y½2Ÿ<8à&Ìºlñwêùåá®r¶¼å
+z€#õş´ŠŒË„£‹¸áî³gº`6}Wk`òQÆ->LF‡tQÜR^·YÏQ: }‚|1! Æ¸ÅwFen=pMÓş§Øâa²#w‡Äò	òğ¥¦¨®åÎÿQò QC”µ–g¼WUÊó=—Üíh¾æÂœHÈzàvêq	Ñ%Lf¢òñkéæ8ÿ²æ˜ñ=ú“6fÍa€2Ûì
+iN—³étqGîÉnôç9x>¶<sı'%À~¶­Å-İ!9Ñ~ï|ËÏ:ÿ/Ö²ÀËí>ÌËÍíË¬¥[[º*«æ¶;nÙÀİÛÜ…9nÙ‰-ú~¯‡l0[va‹Mï`0¹ÄZºÇA•gâ]İÁ^Äm§ô¸ÑZCÂ$®œ>è«?r'O8,“õt»MƒúCfµª¹°'â€–¡U÷ûJ³ ÀÒu¡ç{ıVöq¿?j-ËÖì¡ƒ©Æe-¯çDÕk}$¶lZ‹·ZË¹¼µe²Rm¶­EX0ŸŒ[t¯îÃ0l-<óêE¥ˆ[¹ğr¤¨FZj°ÎÿØ °Æúi"@Ûâ'È'£Ô ­¸In(pF*s0ScÎ´–YÏÿ¹—5óqºİ‘MèPÂÃÎ£E
+y ª¹¤#Dñª¸<-è‡6£ÇÊhxuûd	[KPT3FÃ_ZËk}ĞOKÔ´"±æŠ­¹…uçp^h}•9[dÒÛİ†Èôæâ_Â""%¢Ò‰;’»q
+±¡q¿Í¦«fd7Ò‘ÿÕ¸Ew>h’Å{¼‹1îÑoŒl€ÄXIœhğÆ$q‹|.İõ(Qk?§Ç-BÖ® ‰Ş`Ü‚SĞĞAMc\cÍİKm…ÌQÛwX[ºuİÛŞ{¢a££z‡Æ‘2g²¤«éŞy—0aÑJ°‰ÆIñ9SôIÜBŸ“ŞE¨lÌåcbT{*˜²^IÖ"”9Çq‹".´&†1eå7oË‘£Üw…«‚:{÷|í3wĞ5[ˆ½„¿Øf¼$UTğéÑlÑ‰°t–N°…?G“¯Òz"¤²1—O_…-Å[BN¤[Âø`ª¹yt¹ÙB<Ñû¢xkQ®Ì).æD­îĞ­)(çº¦t]eÉ[ğúñD·@(#X|VÄ–ğÉ¤ØúË¬E¨lr³Â[sºµ0õxÿA³Ÿ• laf]x¾JcÔÑ8ÑQÁ–­‘ÿÕç‰Ü½Şqª Òi’œH–©¢šEEiÄLpzVS†³¡$ÊŸŒÙ“6—™SÙ8nœè~®µ$d=Wbı¦ÌÁÆ
+ÏQ j9YÍ¢xÕŒ\Ø´†H·2OToÇ-û;EÔÔÂûÉêå××Ÿq‹kTæâ·ñWy!¯Ö$Ç`Gİ`ÇwÀáv3…BÆJbkj?zGÜ’ÛÑÙ»ú˜ºZ5#é3Á–O¤uµ·ävpĞô¹b›LËnCÓRc
+ÍåZ‹)>g-İŠ'’¡ÿuOTgkù‘Çr»åz%'îƒÊÖò3ÖÒmÌAwë9‘·•.G¹¿„-]µå®ó[jå=Q~è—<ÑBÜÄ~±ÅêÁL6–ß±–GÁí½:ÿzÀÖµ›#É>8åñÅêıO¤&—ËÏéòÃè­Æ-
+¨Ñ[£.ÎÖòÒªOGˆü–n-ÊÕº…Á¹Ê/X‹ÍÖòt3·™ê–ã–eOdû¡ßš'"U«’¥$¸şêm@©œ.è!°®u©…¸:pø’6¦*ÀŸí4UÓ².X2±;A‡)møù8Œ‹g^acíD‹ƒzÕ÷KESú,	Åj†Ä²wz'¿…8;AÔˆâ–ZÊ³F¥§ÖqMu³<9¯#¡±&aùñ„‘•‰äÈ%‹OüBú|öD\ã8pBİAbÓauäs„aWy¹İº'*¬İ1O¤oRÒ7µâ7Và•„çê¤ ^+…€En6şic©Qİ KíDİ^ÍŸ/qK¨CZ1Š»É’4!®©Îè§ne¼%¹+Ş`6h¹ãºŠb-w¸™ÈÖbƒÅôƒ¹¥†HÚ¿ ÚXdZ’n Âºv\òùfd-Ä½lÒnÒ}‰µ†Ïª~õŸ^o!ÖÿúM5­Í4ÊÆÅ=Sl)›¡Âå†?-	Ó®"ÓOÄµ†-©[AÒ„§u‘¨?­{¢¥YOw¯Õ Zû,¶ 1°$_—Ëüm¹´şU§½òÉ ùrµT–âÃ§Æ-Å(nÁh.†äª™÷YpÙcÕçRlğ[ºuİ9}oíÖó!Øbñ~°€Ü±2aŠ-Ñ·Ô!ã]EŞZtÂ´dİ@wrNDŸà«¢Ç*<&ÖÂbö§U?O˜u¯Ä-êîÿ=HØ…·vôW'‹m1zó%5£;½Â¢w‹]ëØeõ	‘n+n©2¿å§šx¢î%lÑ(®åg¬eE¿eONt$ç?·ÿ [º¥y¢íúD™óÿ“Ø²à‰6±E÷™óÿcqË
+wn[ô`‡¡ËèwZ·2O´…-úŞeOô{9Ñ«ØÒÛhY,J³‚‚ı¨Øm4à‘J@¹fa­¹4n™šÄq‹Õnx9n¹òYÓšû6cI”.i=Š§³XCåÀ–Bİ[ÔË}ù–!(	ª.ÿ‹µÄ)›Ë°Kİ­Ì*®°¡êêŞTjKíÇºÒ	Aæ°(Ih@
+ş/ ¸2 [3/®üRóÉ˜Á4÷„5ø}§a‹3,¯G=g–³Ñ°ª`‰Fî»ó3èWFçÜ½õÿ­ºoiC¹r¤ÇoItZ0nPH“ ¡ùZ´¡Yß‘4à
+€ë7*î9°éQ#‹ûş³¤ôİ©ÖÒ-üoaKu¼/Úb¢÷¤4˜D°Î„{Mğ¾áwºîa—¯j®$±·şÖ2¡¯:@wiµ±XH¶‡Yp›R›º¯ç;‘ÔÏË ÃDÑó4<§XmÅ-xéû(BÙ£æß%d‚-šuLYÏT1¶°¤I}çY‹Cã q,Mê}aú0Gì wê¬:1né9ÿ›Q®†|HmIZ’.¥OdHQ’²Äh_cÜbGØRô_Œ-ºŒB’‘Ğ§İ‰ØBP‚J{ş¦BE(‡ï}§áèƒ¿ßP†íÜ©[áüogĞ{oŒNâƒqKÁÚ…N<‘ˆ~5¶!É¡Ïœˆ-Õ<m”éëY˜ÔÊ1nÑÆAgr‚ùØ²óÆH½/Şœá{ºiÊ‘¶/¾[Ì­f!É„Ğw~ÜÒ†î£È§æœÈpgÚ³±¥[âÎ-3ÃI(º'Ê‹:Èş7M[=Ò¼€Ğ§—‡áÆ³;òlq÷zÈĞ¿Ôº…îqànlÔU>ËsĞ¿ÒBŒûbÜ“ç 
+[®[rû“ØÒÒî§Ü¶â–*.¹ŸrÛÊ‰$Æ]}j^[›Ã–ßÁp™Ã—ÅW½É´œ<§úğğîqÅi/kTßåóÇ¡ÛÇî|÷áè€-¯qçîwxj¾8ÊZfJˆéƒŠÓ^v‘L£¿ÁZfûìİm!nYÈ ×Æ[ÀZÀÙâ4l)P¼äÃóÖ2§ùğ>¶Èƒ­Ø¢w<}¶çYERI‹,3èPuhR^Ğ¨˜“Ê-I€B—}Zœö{YfNCa)ò;¤\ÅÅUŠ.ÇBsĞaeÊ{ªÔ‡Úsôu €RÇÑJ“¶ËËÖÍ”¬šF¹Ëú-{Ud•4ÖN“ÙZåß‚¾\ŠÕ*¢ á-€ÅiA KVœöØÛ–sµ¥ºR>€…uÏ£0L…æ°ûP¯¤ïUMk¸~n¥Qó¥¥ãh¹Ãû*¶½,Ä-[ØÒwwÕn*‰áÖOâB§†«I’ÒœFRÌÒAoûŞ©98yŠ÷ÙkÇ„9ÄB
+,¿…à~6GAË£Ğ•¤nÓ
+ òVÓk‡ÕÃ[:éã°àÍœh™ó¿:–ë ZÚ]§ÊÚi¬ô¤‚µH±ÚäÄµÊŠÓÇ•2>°1a®âš…F<Ñ0€[à%ş•GM¹…æÜÈZè»Y©5ùDµª*:œ6nß:°ÀË]fZ®F¹u[mÕš'`í4d°–|CŠªXˆwÅZ°8msÃ €£Ü©iÏb‹æ0V¡S¡›y¨]sœyÏˆXÒuÜQªelÑékTUMÈ…4Šı½~`±üJ½RŸÈ"õ#í±¤™‹¡+…!èxÁÃ¢Á´R(—ãŒZ`‹Â„â´…ùl‰„9ëJ”ø‚Ä-‡jòG¡9ÈØ"](!L‘¾F+3$È†
+ºŒ¿|`q¸åµº¶Õ–’©¤‰6[…‰Ä('b±´˜±úE8\œö{â–Bäò 'ºS…_¸±¨[ÊÔIÜHhn„-w8+J}„ÏôÚ°rb²ô1…Z/X5SjsånÆ-›Jb¼Zflæ;Ôê¥-‹©ŞÔ×Í-È©ˆ ¦Pıøï›®²á;Óï÷¿ç÷zãÀâcĞÕÈoóš Ç7!Å›#·KÒ\0¢øÊÀÉ;=Ñó´l×¿¨$öG¬eñ<Ü%¥+^°–·L‚–î¦%W…xEÓRÿ	[ù+§ñìXî¢µlé·äòá?ÔªÁí„±°5–^Èe½ÜŸ±–™PvŒ-ËQ®îÕİ‡-*³¸Ç­ğr§&‰Í=kqÿbÜ²Äù_oÑİ}ØÖ›p*ú—Y£’, ÛYsqïaU?ËWûtÑÑÙCxå â<Q7‹-kã->Ê…ú©çP^ë¼Ç1šòä™¥ÇÓ˜Eâ*ÍÜæ¾ÿ•ƒêfŠ'N°åÍºŠ“F+/´yÎZÎfÜÍœÆ\ÍÇïÀ–wäDkÚP«c¹ƒî»=ÕÃcÍVœêĞ·È–«“Š;6ÒÏÊ[Ó+¤Ë…¨d)OxT,m€³M4çË¼²P(cxYK3÷¼¯~›ÖÓy<©EG§‘â‡™O _·š±ÅÑÔÑ«¹È˜;w¿Õdïº0õ†Á<ºqOğ‘&W)¯ğèVs¢N"—%lÙåNk¶6D8»Ò\XZı‹35VjM6¢ÙhØ"lOœ:äâµI×ÄiÓï˜ğéoÓÚ¸Î}9’A*[K‡åWâ¡3¡M¶nÙ|_
+ØÆÜ9œ`lÓ*¶ØÌ£÷S]R·¶è³=eñYÅ•¸eğI‘ÿ©7ê*j¶*™7„.¼¤•³B¬CÓÀ'nQÅ-l‰Û3§Y0¡È ±/ıRÉ\)Ş÷mZ›Ô->:Q¡ã ,ñ˜ÌW»á7¾l¢3üÓXáğ±3
+ #©xKG!W)ö]äå.å.ór+ÕZÛ5OÔU”¸%!ÍâfRúYÁ?éFH -hûPÎµa^Y=ªàÈ\™şUqß·im‘*G'Dn<9ËÑ—åó÷—ÖÔïYKÂÃîÑ»¤3üºÛcqNwKªšé…®Â³=QÍ<¾:Ë]gC¡Ó~ªf+åD‘4'›ù5] ŸY¼yÌ(BXò[ôŠk7:|é¾µÓ˜_—PÑß‚²ïÛ´¶[˜JÔ\>9şt.=ÎxÕÍaCoÒy–xtÕ¸'"¶ÈUH±åÙX'ÚdC8>WO`Kâ‰˜ĞEW¾¨#l)’¤p«ƒGFP½Ë–^7.¼N˜"©úôºO›Ö†_xkÌû#lQĞÑ”¥ô,İÎ÷—YHÜ9ÖÔ>ÿSÑñX¾Uì	¦$&W!Rşî‰h,O¶®b„.[Ã-lñ×«¿Hs<ğæ_Z¦Ÿ%qK²‘¦ºİ}T!½lÂ+Ão
+Yóe,dß·im:É‰$‰#lá“sád¨ô,qØŞ0ÑGîe’Ò÷i&=ÁG¯‚Êß=ÑÍ<b6ù_ÓXĞXiş§ægÈg3ß7İ~ÿ7k;¶+?ä­~=#Zû®¤İÆŞI©ó'{"Œ·,°¡Ö°E2èÿmVñZÛÌÈòÉgµsà‚åN
+Ó?Ùû°E¿‘A]»†Ööp-ÏÏİ=ÌK¶?İk£sÛ9Ôš/Tƒş¿Ú;LËœhUÊİ[âİ³¨å´ul©¶°eGÛŸ²–•¸…Ğeåy"K¶şR‹ô–yı–­ç‰à	¬l.¿e-[Ø²ü äEÍVÑÖrZaóéjim¥LiºôsE<Ï&ØŒ‹³rI‘ÅõŸˆ[Ö±¥Û7\Ñc%ıüi¥•Ó ¸ŞãôßWòõ`kÑç¬/²–ãP†ª=²Ø­=İ |ÓZæŠğ|aÆÓåò&çlN·–n@FØ²>–[ë¾ÕBÔÄ¿%–İŒæŠíP…7êìôPÔËÈJú>Ï9ÃUã’O¼[â¬h`îñdK1}æIß¢Ì…>ÄºCP£N*,¨j5åBı<¿ÊZÙS}rÀ–n	[F«&;cİnÂ‚åúgTnÔêÔXzÍ…e(º(u[e¥v#l±·µ\‡ŠPjs¶k1÷Êh-¨è‚¬:šÉkßÆê,ñëoé*L©¡8˜ï2(‚Õ8M.¶,ª+ËDÑr>Ôm·€çè¥§!Ê,Th”Ë{IÀê{6k1#Oä8nI¬…À^æa"u$2÷¬è1‘¶^Q‘ğÕ;”¹ 3—ÂŠ~¸¦\kß¬OyfÅ¸ä¾€-<B·Á´$àê¬%×MŒq<,1XlÔp@ê¶šğç!nÑ¡Æ«½ÜZ¢'æPXŞµDRšÓ;”¹QZ	½hè6¡ÁëÜ5÷åbâŸË‰º­ñ–b;Ê•º­X[t’Òh®_ËuHlÁóÆr¥v[z¼£úXKŠ-®0é¶T2Ã‹¡<b<
+<-Yâ‹alñ/\ëjC-ÎÑ¾ñ–·*Î¶ôIhRŒâ–´¨+×Q…\m‘5éç<Q( {¶ •>Jÿ²f3-ñ©‚!@Í”¹ÑX’+1n1vŒ-¥Ãò¥xÃç.uñ!O´É´Üi-âcCd,Æ9‘æœˆâ|C"9‘U_aKqqNÜ8¶–„¹Wßğ1'¤¥9$ø Vˆ9QãâìòÉ4Ş¢ËskÍwkj?ôU8ƒ7Ò‹cPzüJK?<V&Õ™1ÕÚN7Ğ‡X1Wd¥j·«½äÎ„Ø-óh²jf(÷şšğÜó·ÀùC•oG3sG}-õJ—çÖƒîÖ•Ä6¢\õ[’Liæâ]ûôÉ#Ú±bÕr”»·d[ù"€;÷ã×Ÿƒ¦À¥ËU8sÛÊ‰4ÛÊw.ëÎı–µÌˆâ4V¢Ü¬;÷km5'ÚÈ ³îÜ¯ZKµ”A¯Å-ÇéÎ
+†õãa”#«r¼›ıà“×—ºL¨Ôd·1Ş²5«ˆ·>´ÏêÎudıØª¾¨ø—¾°ÎÔ4dVá3Qî²^îcá…zĞóºs¦™A£Év_S ˆëBlùk‰qË¼^îêX.p-7EöèÎ±ªEĞÀNT~P^dç¾[HÀ
+%1Üíìr²(ä ¤Öçr'¡éİa“(×'rıbËòtÇ`ËëqË®zĞ{tç
+ªrÊ4^ui±Úë÷”!Å6unLk9õ˜(ÃÕÎl¬zÖ¦âHQ®/TÈ%™{ªæêtxzÙm×ƒŞ©;‚,¯ãj¯_·,»Ü°“¨NvĞY"“ÒôTJÓzQšK²<=[Gş«-lÙ[véÎ¡'ªnQŸ+ZK!Õ^¿)nÁœèÎr?(tz6¶˜Xu:üÑô‚Tºå
+¹ş-ËÓåÎÇ-›c¹ºßÌ ÷èÎ%Â”Ñ¸R)Ë/Ã–ë=rñáK¢\â–Hêla{
+R}ÜW¼úÈb·«qKµÉÓİ¦’Øİ¹”‚ÖL<Q!Õ^¿,naYHE<¹óã®›R€±×†„œHbŸñÖõQ6m±¸»ÕñÈ Õç‡î	S}ĞHÃõ–§û©Ú«6ß·XW©Û©Ö*ÃB7ú$PIhzIÜ"}†å}NÛŒ[UtÏë™¡ßqµ×/*Kwñ¡H]X;é˜‡J¤µdºÍŞÓúŞª¡;êt‘Û—¶-6YŒ^Ë=lV\Sõ=¾·EGôÊèšË¡SĞX¾[VkˆìPË—øw°e‹ß²9O4dkùkÙâ·lÌ*B—l,?·¬=O´·¨»ÿ—5-Ëm=Ùª—=ÑÓq‹ˆî~ğåSD±ïlü?)_ôËrš>Ø­å®1-ÁÏy¢d.zg÷ÜrNt[KV¬=¿y†µÌH(?1–»ƒ±0İåæ¢³µ¼ĞŒ`Kq¹µ¬1¶æ w1¸T¨£*:8½ÏX#y¨`u……ìïdİˆAÇuvBuÔ_1U"à‚"éÃR´'
+Ğ¡¤©î’ëâs¨²%ª|,şs˜Úå¦'ZÏ‰t_µÕw.Å)ÃÈ\ˆ#ı4õL³º.”"ì°²–m¹:êgC‡[‹Ä4oÒ×Jä>Òã#k‰ús"ÙGKlXÅ³ÎÏ‰6ŸlÅÚg›LËP<8Pc5å‡¹^O«’µÈ¶\õóñpå’&’3"…¥Q	5ı©ÒÑúD‹U×úãÔ)6ânóD›qrŸ¨âh· ¡k±b-Âõb:X´&­}>’ép‹…SG16Á|NÏÒ}l-}ÄŒ^\ÄçzÇZt¤£¥{7ni]İmÖl-lI8tck‘áz	Œ¬¥§m+®úaO4ôÈ¿!¦ÑÈõ¨ƒÕ„°2iD!DlI´èpIyœLÇzÜ²å‰Ü½İä·„â¡	ù« â4nI<Q(EZDl‘m¿[èYª0{ÉHh‡Aƒ2{%·LâŸóæauÄ–Â”‡É$maKµ‘Ao{¢´x(<ùbğvÕeÌ‰¢µ0×Kè`B+9'ú8¶h<Œ¿¯ñDõÇAºÑ@NTÄœŒ§Or"Ÿ‹Ztâ´Û3ò¯—ÍEÕON*ÚÙ³Ówv…(öÍ~ÄPéÏÌšÑ‹ÑÚÈâ~c,wW=èÜ>ÜÔë«6±¥êr¥¼ÿ¸éòÀñÜ8sø"‹»«»Ì¤ı•V­±¡6ãÈ‰²6Ôï´÷ø-Ùı˜µDsy)Ê}>'Êí?Ç–—9ÿºµ:ÛÊ/aK'%~_Šr³úAly•;‡¨[¥ò^‰Ëõ‘~w=ßåg+`w32§OÌAï`C½Hªİ«­öÎîïÒ„WlÕ;¢\ç¡¥k7æ ÿœµÜ~ÕZŞÌ I^ù¾b/D­„‰BÚHd)Âã-0Ÿğ[™CI›º ÄgIf aC¿€½ğA5NL6WC9©‰Äûl©BÙ§Æ[”º¯s4	ÏX¦‚ ICFğR*àjâPZÙ4áZ¢]Ãê5¶ÜL¦<|[4œ†BıEë~jöE¹ËqKk­ª»µšĞÈm‰ByN8
+½šÚ2û‰™+²iÔV³QŠX›¬%ÔËÏÄ-xhş—:NğÏ·hŸAÛJİ»5ÁXâä'ˆô@Œ~d+¶Xó4>`¤ÁûØ„+ÚİAØ°•Ïâİ¬ÜÄLNìw<QU½3ò?¬V„Ø /›¡'ÊV¤çXÑMH»¢­†q‹káÏù µ$¼Ññ‰eO´¥R8­^ûò$¹w#z÷ÓÀBg¢X›S°E6íGØ"<a*¾8Œ[JŠ[L<Úß±–ZÜk2kVodĞFr¢"äD¦êV'<haÜò¦ Ê™¹.
+†œ¨ä,ézk32INô[ôëØÓŠ[U!ĞÔlòvÌ,§„6}¥g¾±y(£{µ¹$ÇûSÓd«*…›QnqË{JqOiÿj¢Ùç‰ÌZË@3µ–0–»¤i‰csï%ÏVÀ=Nú5·W¬…2¢—<‘\Q÷Kµ¡²Õ7x¢—UÄZóMæüÿL{«®"¸d×ğ[ôë9‘·7•­å—â–ºÚª5Ÿå×<Ñ‹ü–·¼%IÒæ`Ûs-“ƒ¯ôD/Ç-‡[Ë¤»ù|%¿>': ñĞS{dkùœµoüï¢—q9&7.eEØÂ3º…(t•7¨ˆe¼°-åğ-–$æmi¯SÌÖò/wX®CÛ—a6l£*e~Ë×Šì+¶DQ‰Ã–‰røæ]2ÌWòº(÷LljJÅfmZcÑÚÈ]AÂ%“¢ˆ—&Ê?(F;aS~+Ì»D>*_Éÿ%ƒ^‡”bÏA*jÀ‹Ğmêªl£µ:ÕD”»Áú€-ye/ó•ü°':
+[Ë.&Åm#wÅ5*h¦ªbckA[˜Fõcr]¾’WYËpjÜâXCÊ÷²º2Jüµ$='hs…Sl1¤·ø—\Y½3[>â‰ª×+ÎìÍ‰jÊ‰î(µ}«I·¡	¯µˆZO±ÅïÒ´(‡ìzoA1ï$ny–÷Û{èäÑ9jeí™¡W×ÄMmØC»ñ“eS	>ûUeóèÜ±c¹‹.C›ùYwêÛ¬åÂy¢¥a[w›·
+m²µ|cÜò©y¢MûÊ—èÛ°e¸Êå–Ç[rû­¸åÌñ–ÜòxKn[&Ö¢Ë}Èƒtûrj‰s¹ìïgâ–áÜy¢k‘ÉåWŒ%šˆ.svı¡(·;“ßò`-·úUÍ“„8—±å3h-'RG`TøÕ4lyÎ&€n‘G"ÇÎaQÅ”@ÅİRÉ7À–²ieåW”şıûQîâÈ¿=nÚÁt2”ID2¥FBÜÀt¶"p¢;×²œ—ü­…}`‰$ßü ¨y_Pú÷Ï·+¸s0ÅÜ ÏE—­MâÖ“…8Ã3²³ï’5ô÷Fú/´ò+Š¹ş ¶œ<OäXšÍ›
+«o8[P	
+^d.˜KåsG:.ù[É7*0}»S¹z¤æ}AÁÅ‰r±E…-¥GS—±ä¦J°%Æ°hRX>wRNÜPGÈŞúWšŒ-W·\·xS¸'Œ'®ëŒdş(ªË(vêVOJşÚPF:H¾Uô)¼2cËuQî¹9§=a€"R	3¸î¯äD$®Â¢%eW–|£úãƒ¬ÌqËu£s§ò[‚ğ©èiEÚé¨J±ø(¾ÛÅ™ÚpQN´6­œ'"…öÜşkO$èäYE­nyìõ`Ëêx‹ÊsĞ¹°eq¼EeÆBnqËËgrû9lÎoÉíÏaËrN¤²µä6Ê‰NoÉíïXËúXn¶–Ük	Ã-³q‹ÊÖ’Û[2ç?·ıØ2TKã-yt.·Œ-¹å¸%·OæD*cKnû°EçYÅÜ‰[2¶ä6¶–j)'²[r{À–%O”s¢Üã–Å(Wu*cKnSlÉü–ÜöcËRN”Çrs›Á–Å±Ü<:—ÛcÜÒåœ(·]Ø2,êÎewn{±E#´d¦en;ã–<–›ÛÄZ–r¢Bå¸%·©'ZoÉØ’ÛØZúÅ§æU[r›x"˜Uì3ç?·QnÕ-åflÉmwÜÒñ ]î§Ü‚EÌÇ-6cKn3qËjN“û)·¸Ç[È`r?åã–*Ç-¹íÃ–j3ÊÍØ’[å®sç²µä–ZDËmgÜR‘¿Y±¿ºßrûé¦ªnƒi™­%·`-:>×º‰-eî¯Œ-]5l[íf·ıÛÍæç‰r{~t±ÅfkÉmW±%·l-¹ekÉíãÖ¢²µä–±%·ã­EekÉm‡µäúD¹å¸%··ä–±%·Œ-¹åœ(·l-[rËØ’Û_ÅÕüO”+mnÕKG¬ËÚÿ¿èP\iıÿßÂıY‹»µøóÖÒ—¶ÿ5k)L¶–W±¥÷ÿÿ‚'Òêv»Õ€Û·¦¿ÕÖ÷',ñ€â7h[n»Ôd8UIÛÒíğCÜ­.eƒO¸ <pÄfÿÓÒ±isçÓ ¾»wQZ‹6eÙûOôgìŒ¼sş_V–Æzl)ş¶¨¦÷æá;·ÕeCKàô¥?ÙÆoJŠûÙ¿¤í ³-^˜Æâ¶´VZâ>f,tà‚-|l|°ˆù0kÑ¥Ñş§0=L/ï L´ÿqôújl9‘—ëĞ>lèmzÑ`°ÒcOk×xOŞ†ÂÆ{Ûà/ñ{úªá‚\óÜj4‹–M§n”Lå¨CÄ Ö•M _ÀBà1ü]nş¶è~0€ÑÎt‹xÁ¨ ‡¡ôÖÂîß4ØÑ_iÅêÃz¦É›S[|ĞZøÀ[äØBˆŞàšµ–~yÁfÁÎõo[ì¥ØrµxÌÀáIxAèÊzè=¶À=©it8bK:z0ix‰t¿û¨µğ¶ ßA—åƒz2{,¶ø›Ê çñˆ |T ó-Ø¢Ş·–Ú_o¸õ$ƒ £A e„-·\Ù2°C¨C]á°ßv Ûù£ÖÂÎØ"Ç&ìÈ·àOòËôDîëâõ¦'‚4fğ½—äD˜DXX¡n½ŠØbš;åDeÜ–^Ê‡êÃÈÄİ¨ØÌ…s;ËPès%ù™yÏÓcõœ!KØ/Mù‡â8?ùe“@qn;=Q~w›=>kqÅáÇ®å¿¾ªåYÅÜÄ•­%·ü˜åÎåJy¹ÍX‹Êºs¹½‡-¹R^nÏÅ-Y¹=·œåv<¶¨µ¸uÙëı’®¤?æò.›ºéòa6üìQUE#à3BãÜÌ /Ã–§¬Eƒ3¿İ	§S W¿@ÚZÔcËçÛ#á¯<›hš•~ùœµ¨¢\sê0Š“ºÄY"yK“ğÀİ kÁéò/zn‚èb€-ÎïàŒÿoJšÓ/ÍSk4_XÒL2*¬LlÁÔ—Å%ƒIdçù¯jîà‰é¹z°vÀÙ+× ç¿ôDpMÁ¼dæWò–gR{¶–Ò1LóÖ¡aÂ5ì!Ó®Dû`£)ùÏUÖÒyQMkôÑØBÌÁÙyÈ „¯
+¤Cæê!ÿĞ1G¶kÏ´–•±\õc¡O0  Z  Ä·‰‚·¦çĞÕ›HÿøWg_qœºï”®Ã‰ğ% ‰KlÈò¿„	ä¿şGÒ!¯…ÿ¦.Ü)Şp×XîÖÒå‹ÌÃ_X“¼-¬kKè£ëÅZxH#÷cĞ‚üúòZk±òô^%bÓ•ÂÉ9ŞZàW`QN$o‰«Wğ[dİxà©íÕØ¢˜UŒ4Ršgl1p‰Ã[p*}Ä]â”1òa¤‹÷ÄÖÒ#kõZlqI„Èös’µ&x»H:®
+Øâ7NqDû¸soÍùÛ^âÉz\`¬ó[‰lğ-Ä½E!”1§	_,ïébH>ôfâdÅuÖ"ÉÂx…Ùt5˜Š:+n!"*Æ-[0±|l"¶æŞœj-/x"­îC»Ù/#Œ$'êöá-d9½’¸-é%J•ÆYÑÅ '|q·Ø‹s¢·ĞUB6æD­v‡çD%åDğ±”IÜ¢‰ºW—Í[Îz|f[ígÙ¹áîÛ0l[Ìä×ov:3Ù ?@ËGéÄ2¯°–)+î3#„zİ¼Ú³¬e¹†ˆÚdqkbİÛõÇÁ‘g\—y|vfê—x¢ÿ ¹¦8[^ËİBtûï?]N®ø^kïÉÆÂ«ıˆµ¨÷™–ú&sr»*ƒÎÜ¹ÜÆÖ2ŒŠ>ïú¬osş$¶¨jÍûÚ'Ñ¹ÉZ†×ç µÏˆîõK.fl‰Ø¢V2ho.ë‡“‘M=«¥áp¶}}Ïéí$¸êIWıU™×¥TÉX®]Œr±ÅÁè\[İ÷-=f>sÊs~nÍZNåˆıWéò…Ö¢¶y¹ËÖ¢ï÷'ëíÖ².Cç²µ|[ÖQËQîö¼8Ì–¦Y	eCo»Òû:ãÛ­Æ)ybƒMTÊ‘ØœÈ- R”ˆµDñÒ'{¢0wUÈô“¸PÈ78Ó	œ>—şpm$î7tË¬Á'L…Tßî<ºÜ|”ûÒÓgÊ‡¸[óD¦I˜f,+‡oõ­f½°‚5å˜&T4:û”˜–ÈÕ9bº¦óG;©(mw¾µ °	Uàˆì‡³ä@ú‚éõT®ˆäÀ§¬»‘Hra²9êÛO¡½
+[Ô2wn=ƒö­İÀ–*ÎØŠ'BV,QŸÀ"°ÁR*¿+‚Ø\P}óİ£p‰bW»kt.…‡#äaänõŒ-Ä¹ÁTsâŸ‚	†DX{®…;L4ø¢˜VÔ·;.÷´'ZË u[mX´á›À4#kÁ·
+õÚ‚µ¸[`ƒ%ŠtÅHæû-¾SimOgø‘¶»ÂZä’£w	ˆd(<ò#„?ƒ;9ğIOD|Å˜3ÇqËit¹¥œh~¼euVQ÷Ã–'&FdšYÁ¿4¹[„VÖCe„ŠÆï,B%oı'à&º DÒvb{£>Ä-âŠÁYùÂ)–ON•cï !Ok&²¸È™c¶ÍYt¹yly©šz¢À£ÜàHNÄŒ3ç	[(BOT¤Ë¼¡‡Nßâ è²(mw	¶‰[â£=.|Ä&ü1sCÈû¿¹s±±h0ºíTßî,ºÜl”;·¨­9h}îõF^¤Ñ…¸Å–·AŞºR$·	[„xªI‘NƒwL8­uúVñC<ä‰®Ì‰"¶0¥˜{³X±ØÂ„?ì©VÑ3Dfƒ`#7Eœ9Ò·Ãş½DmZul/¯ğ[|­êê¾qô˜cç^ïö¸ã'¬})7BO^u=]ÌPÛ­¸	9p³Óe}»˜W)Ü˜'ò9Q·•z½Ìçô¸ßh§<éïšKÕ•ã–İÛNµŸšT<œ-}Ñàë	óLçÑå¦ÖB¼ÆËµÚ¶yúgÚ[üœUü 'ÊíÖ2¼·jÈô–ß±–a=nQ9‘µÙV~[ÔJÜ²Åo©ïªÎèçâ–ÅYEµÌùß3«˜ ‰és/¼ÆY§-NIj°²ö}a½{£s¹.c¹ë9Ñ~KØ6Tò™'D½vá–‹`~Eı×c
+{|µ¨·r"å†YEì·h>[´–lùŠú¯Ç<iûUØò@b™æDjßBúk=ZÎÌ-5[[RúÕ[J\S~îH¥]‰a'ü;Z¯yştdııÖXfã±6Ûy(åÎé zG“G&åzÀÖ"J(v¾]†àˆ%—Å¨Ş­ò'|ÖÂ+Q¦ÖĞ4ÒShòô™ss¢5~ËĞ±*…0÷Gl‰5[Sl!úY‹Pâªå•d~ŒJ»:dØ‰Ò›ğÇª°ÁBZu^‹ğš4NNµáÎ0YÕc˜JGÜ9`Ô‘µ 8/ğíúÂ†Î	¹‚ÌJëİ:Š/‚p•ÈÔÉ.vû¾µ¨e~‹Úzj>Ó².Û%ñ·Î2%ÎÑ”2TaC+3ìª1ŒiÌr(¿å×ôY§ZKÂCæ‰àYvA}ÅN¶Sd6Œ® -Õ»õç­SO©‡~M¨L]½ï¤6s¢íÑ9qj[¸fë4nú\R#‘$?¬Ò®ÄR7áßş˜t¡0ğp=½–Ï:×ZŠÔZ
+D	Ğ«"NÎ}\â‰˜b×ó–)ın§µ0WA=©wË¢QÁ…•Ø{h-Tìö}k(6Q/`‹Ï‰"…@ßgv¥fkÀ–„>gƒNš`K¢òÇ§¯ˆÍ92È3¸ ÄØ\2òúZl1„-¶v\Š-½XKÁ»°å³Øâ{‹¹‚Óz·ØÑZRê¡TÁ=(öUİæXîú<‘8ÑwkgFv¥fëcN¤ˆ¸Ït[Š5„VLJ»Ö÷NëQvMâ–ĞñõéqKàÎQMï·H%ÕP¤™e÷"‰.!Ûæ‰¸¯ûMÆ©FõnI.7Ä-£•´†‹İâ‰†%Îÿö<Qó@3·HÍÖ·$ô¹ˆ-V§ü°LÕÄ°„÷ÎëÓœˆxt÷0ï‚œ(b•P9‘ğÿ)'êÇ²{ı£ ß/¼—HÎ ® tjRïÖQæÃÖ’R]Ì‰nGåDËJb«ÏAFç4ZÎì5šÉæëœÒ³D;»H½+ä	ÿßV_ò¤ˆürçN^¯-Úh|>Ë
+avÔÉ§Û#‡`¢ŞöuõhtN÷mõ2Ùà³+ÿK*Üuíy® xıƒP3Í“ç‰Ôç_æ‰t§Şs‰”îÜ/ıÓŞSÈŞˆ-ÃTæ4ñDë:ÿ'1ƒV÷×Ñ![ÊIíÀ}ïYE«c¤ï­ªU“/únh}5[WQ=ÃXĞ†[ºl-ÚZ†BÏgĞë#ÿjP’-åæöÇ°eµ*Äª^®wCU¢Ü»Ê üukYdCmÏ*öİ(·Ûâ™ÇEĞ_•ZÏÍì@éaÏõÿ¶¨ul9Ÿg=Ñk-ó‡øh-‡MUé¯ÉÖGş·°E¶“ÚİkÅüªµÌaËaSUå÷XË°6ò¿¡±`µ³ÎúŞÎ>-"Ü¹(€ BqÄŸcZ—kHyÂÔBÃCm5™"nN¹š:êÖ]î‰%=9›ÍjÉÙÜîAÊè}hñ”œ,÷¤(”@7ÖU)ß&ÕíxÕ5Sàl¯J¡G“*q>êîÿ­qçXÎ‰PñçÉ‘ µÀÒAqRºcâ\xt(²æ¢nİõÖÒLÎFJŸÉÙÜêãê+2aPH…Ü“ÑZZÑ³Yğ;Ş­=½†-È…º·*Œ·,Ç-4«nÃÉ³P\àÀ!eÁŒ?q"môÑ
+¡¡BÇ@²DÖa¢[÷lIØ8={"9RQ<2n‘SG~1:â7ÊOUé`­=\ärSca[ô½Öww¦s¡ÕØ%î\"
+„â€­ƒ9¼W¼*k4)m5¼Â£s@¥+İºXKPÒ£³I”«àlğøŒ[äÔ±C±'£}ÚÄZÒÒ­Ç?SåMaÀ"jy¨[´ï‹Šnß"Ü¹T.Å±() 6€.±ø(Ã|©NT†nsG&Ùgb¿qÍV9›l9ĞépêEÁ=¹€-JÔØ°nô	Ø¢Öy¹‹üàpÛ„;7Ëoî\…‹BqTÙ˜'Õa£êæï±…HOiÜBÜvãD·îÖÂNÏF(€!n9òÖea™{
+=ÉQÒÔZ
+§‚ºà‡Ÿ>[[
+˜Ï›-ñ[„;7Î‰>#/›xºElÑRÈc51Á01 !á‘ÆqDŸWN=Æ\4…¬!'bz!tì¶¬J‡IÙá	£÷,¶;ê*Æ“Zä·VÙºáÂr¢ÆÙ1Î&¿¯nö#_<O!´¢;—ö£E¿}Êx‹êÖ´¡ˆı²/rß’ÛÉcË‡y¢aEc¡ÛY…3ó[¾}lù˜±Ü%ınvÕšÏü–há¹Öµç‰–r¢Q­ùÌoùû-ø¡Wæ‰FµæµrÜòç­E-Ï©jVItŠ5*rdpùÛØğ¢VjÍïÉ õ¢"GnÈZ‡¹³JbjÒ<"‹–D:¨ÇÙfhùlQ³j?jÇSóÉÓgğÜâãğá
+¿úzJq|°é»ôµ»J¦ĞíêÄÂ$>*ŸFdÖj¶®?!²­ßòpÿ»µì:ô“Ï>Ş|ÀZ¶Ì×ƒVëuëèyÜ}ğ¶³ÕGÙZùÖ[½JŸ™åêã¬EMUv?}6Ò´¬ÆrQLˆ€Q¢çÛ ÕÃï„gé·¼‹ÈÄıÖÄòp\ZèAfHİPW§ÄšÃ¤­ˆ3Ç}£áÒ¾BAÅÙV‡mÚÌV-Lín´Ká+óˆ¢“‘–»0«¸­iÆ[îjÆ‘˜ÜL…_;®ğ+,JŞ³@`Â{@×å’‹·¦¸¤Ê×¦µÈáKPb¥!Ğ˜©í‘Ø"•òL¤ jÔv$ÆjìFĞB¶j+½É
+=ÚìõFsĞÃ*‹{­
+§OƒÚxyÏôh½$èôX³•¦IÔ|VÌ›œ•R“’Ù¡pëÇ­¥–ğ]˜Z†5»Û#¹dÜ'ñöPÚùdU#Ú ¸Å:mÉfoeĞË9ZÊ°–Aë>Íº²îæ°e¾´Wø-›(Ó¨‰T™
+ï©H7ık	¼\D:˜·Ã“:ŞZ€F8"aÚ
+¨Úº?Ç›½…-‹9‘
+ä¹ÅCGDdQË½ÏÄ-v¦f«Ab² û$`	D&2ñFúl	…ÏÓ–xòk‘’¶òñÊ%ÃçîöJpSâçd³7¢\Õ­<ÙºYk¾Hmq,—å'[ú¤Ö|‹+5B%J*¼ô1qÀ_‡-$û,ˆƒ¬CRâ–q‘ùÊÅ(	£–Àİ+)n!oºÙ;H©5µ®;'\ÿ0–[ÌåDÁËãùÈÛq…_ŒÙg},¼G`©ïÂ–`-å-jªå‘©KÎ‰"¶øˆ7é©&’Fnx`Åà('z7›Œ±å®kZúûÊ…§æ[=WMSÚd‰gU
+ƒ>¼•³+?ßìèÒÆ6ÀÉ«gûPÛ™ílÃÊx‹¤KƒZùc¹µ:nVîuËu²¾«…šj~VQÓ¥Gt	ô9wWª9Œ;Üsû¦ÂÜ’Æ‚RK9QßVC¢€zîuw?u¾<ß†-+ã-Š€e	[ô½åúW]æ·üqlá”hÖZØX<‘ÖU:–ëT­ëÌoùÛqKÅµ3q¶¥ë’ÁÜwÔ•sûO<Ñôaç±'xY,–èc•‰¦eîÒ¿í‰:f[ÎŒ·¬cÍK…{»ö<Ñúügÿ4a'İşZ¿ËGùB}@Œ@¬\Õ-dĞj± r?[‹{ãYEÓ¼3›nò#oÏİ]oaË0_ûÌ’­Œ·€ó©U('ô²'"¶Kûò­—­å2ká™Ã…Ñ9¸³Ë®ÈªÀoQªù3<¦¦	~Ås§°âˆí…¶(T¢ãAº{L$‹D:Ø„~]æîœ.GÆl79æ×èkÓ/,ÓşCŞ
++*ˆŞ#0Y„ŒÈ{TÍJ¢Ü¹œ‘eeVüVü¡¶ğf˜™ƒnmIÓ TD”«Í&4¸T†OÑZ’1´IeZ.‰ÌD2‰t²]Ù\i-	wÈr,FÿàBf»Á|êG½F_›~a]Tø5IûÔR·ˆ»nÈª²\RLùl†÷wü§LKœ#RóÚPÌL‚£†4ÛtTS*X†Ø^q-àŒ¼(õQ1‘ÌEúÛÚ…Ag:Íä“²Á…şÈB‘õùË×èkã/DÉê0š»GûH;‹Eo±ô±jŠ
+)ÑJ©U%1ØbPtvg
+ü¢÷ Kë€Ä%ÕfªŠÄ-I-Z=€RZ™–e"…¤}¦†ë´sÇü–@–c¦şá…}`üÕì’_¢¯MÄ¨ô ämP£*[))Î…"òmU`å®`æ.ïo-åD>®îsúÊ¡Ê7Ü½.¸$k‘RUÊ&•hŒOß\å9ÉˆjÊØÂ›_Š-&b!ˆÿSÅkù¤^¥¯=õ†6Á¢p‘ÛĞY â(ß˜ŠaÌ£µØ0ğ¿·À¤"Z‹ÏŸõì$r`„õ~œUöR—oeş ¬íáx¢¶a!º{1n	±FóæÀ&Ë¡©’?/ñZèƒ[ı*}m
+fTÀ7`‹»Ûl…•ÉJp8GbKäõ«O´·àÜN1ÖİÌĞ?äwVyDÈäj³)¶8*¯c-ZÌ‰†´2­»QFÁYGBÒõ{cp­'
+l@rAXz˜ùè¸PèmrÌ¯Ñ×&_m’ÇÂBè,Šc’ÒÇŠ9"ÊíÔ0ë‰¬Ì@/åFKz"z¡Âo*­½»‹¦„ı5Ü¨1wnL–u“5Gáˆ`È|×‡F[uæ+H°eq¼¥÷n¨ë‰ß¢mçg†—+ïw/ıÅFr°—4yzU-ÌA¯äDBó¿·'sÌÀ™ÎÖ2.|ts5'
+à²à‡„“|¦óØbZÖr¢~fô6·?Ûö`K·8O¤î­»ç9½ŸÂ–å(wc¼&åé³Ü~ÁZæB-ò[VÙP>ßé²µü”'Ról(«B˜»d-îK]öKg=üñ'¹ò§øWïé¡€ùƒ“Õö…>{ß-cË*¿¥¨@½½8ÈZ
+g¼ÚÆL:ğÎå×põ '¹[è‘~Ëš'kZ¾-Ï¹.Ç;ô—`Ë÷põüİq1¶Ä0w6ÊíV=êÎmx"íÊÒÛ‡6eiXP_Â
+CzÆWš¾ m±7`;¿½‰»š°këewøs‰µ M/¡ÁáìŒMîÂ´KÑ5­‘ÒS²H‰ôNË”º·WÒÒ;®Ôpæz³½:“ûnÜùN®Á{ô fç‰ÔvN´õå0´?Xß½š¡ÀÿÁ—xgÀéÂKv…/i\é÷¶²ıxWÜ=yiL¯ÍeØ2*¸Kü¸QÁ]˜r†w¨*)Ì5Ò«yÒ¬
+u;­eÜ= )7u’tƒ8cêqçK‡¾™­Œ·PN´<ŞŸƒ^>Y<vÿß&ˆ”:¢OÂ\‚7‰-Ã[ÍÛËKpt†¼,JwUÜ™ ŠÕ…Á>Š´Äo(¡ªLéÑŠ³LĞdªÎ.kIû {ÇQG¹’º—»Aœ9,~è|ÄàwúH…z.né6r"µgÈŸIYÚˆ‘p¼èn{çĞŸˆÒÎ¶ôMÓŸ>lvÅ»ŒşÆ‚C“>¼[4«äÑô;,~(¡JE#¹P$—*é8ü ¡İí³éîËØâÈ)I7„»Ğ<v¾tè)t2½l	U»!íïï×ÓMÏ/¬A"+œøZ¶–Õlà~ÒqûtWC._Æ.Ê‰JÆ–íjw«İcÁ]¬EL?\ª8^pÿ½ó¤·ÆHâ§)ƒ–œ†º!¤•ôwÜùÒ¡§ŒåZ†–Uı–¾k·3 oßè/]° àuÙãÒ	.0X1pŸôÒ'l	^šâú{UÜ¢’ZÃ£¦
+î&Ø‚ä9X´âÚ"~
+[¸w|Ü‚ş	Aa·‹^;Ÿ;ô-lYËİà·¤š–ki^i(K<  £‹InjbN¤C@ãœğ’×Èî†÷¹ftN
+î¶EÈ‰Ìw«ÇØ¢X˜kPªXÔ€Ëó{/¶ˆ—¡Ş[Ïß^„-}H0MÒízÒùÚ½çˆ
+îs¢¸E4-W£ÜG"™Öã08üÕÉ)?mJÓÅô3/Öš³KÍµíè|ôÂÚ'YëQòKıRLúIÏvè	c¹lF‹9Qªi™Û4ÅzÛËÏ*®·Œ4-sûûÖ2,çDİVNärq¼Ÿj1^ƒîviZæöhX'ZÉ‰tK?¹ı¶°QØgs"x8Q«¶ü¶¬·,ó[ÈPT[~
+[†ı+1n·¨—K‘î:¸¼ .¦ş7bøIE/2P›TĞš;ˆ³ŸĞÛ'ê±eŸµ¼rPÙZºÅ­×i=ÛZÖr"Ñ´T‹Ï*@â>ÜéÿNvğ¤©İ²Ú3¬:q¶¼’a¡ÙH¡G5[Iò&©ÂÒ•Q‰îÓr·æËeJ¨ÒÔ«Î±Şg8u7•Ñ{êKQlh¦O¯Á–¹sóZÜkºs ¾½É…ÕlE]4Ã‚,¤Câš–zWÊsÙê»­e¦„*yOSŠiËğyFÕ·a"£÷ÔâÇJÕÉ!:ù®Ó±Å®Ï©iañÚ¸f+’¹B=Zs/[ªÿiRu±ú»ã–™ªTÎPC‘ä›5$nA½é½Pš£r¶&ZKtáïúl”kU··ìäÓš­IdtN¥_Q¶eË•E‰PDışíÖ2-¡ÊTº(	Çç)õiÍXîÙ> †›¶<ôéqK|jşîÜÎH>M3ê]P¾ºyt¹Ù¤²(]Šò°–´„*u]EI8>OQ}K°å%××·´(AÕ}úô*¿eo‚“ª´ÕEÇq‹Æ¨nÅX-åËã–™ªü@”„ëø<g‡d¨ö…ô¬ÔÒŒ+ßñw]ƒ-kq‹ZVq¶¤>rÑ§Ñ\¸8­,
+	Ç×çD%TIHœÎÎğ]çNÆ_“ÄVøa fj.náïº[†…y¢Câ–™š­Iô·I¶ÿg¬üÒË#õEÒœ=öƒw7öVã–Nå™ ÜÆqËÜ¹Ü~ÖZ^PûÉíÇÚw®{?nÉíaË°¥i™ã–Ü[†‡4ù1ÊÍı”[·,b‹ÊØ’ÛÄZ†EÎÿÛQ®VRÜº}ñ´B×³dœ'²+Ç¥şœ6ldZ¾ÀùßÕfÆE€`·±,OÛ~PıµŒKRø¡úl™±V2Ùÿ_h-ÚlX‹6ÑZ]Vã–· %
+¬!9çY””3E‰’m<¯Â{—4Ëï!Æ/\1]Ş÷©ån'BeKÏõS}†*©Ş€ CBR<õ~ûßÍgK/·{wš«PZVkÃŞlq·¡àÂ¬U¨®$ÛT`Ó‘¦o€7¬¼4kİ'ŒE¨lvtnCR­•É–rô²á-Ãcá€¸ÅÅ:«£¸…ëå"~$Û„dÆšn¡XgM…O/Í~ÄE*[znşŸœ2Ÿb,úÿ[eDËsĞGÄ-IU6  À–h¯¥²JÌ¦cM7yßÅ˜—ök	T¶px`)®LLçƒØB§(¥ZËºøÖ2lëÎ€-Å[T‚-á#¶ÓL;f‰ğ(_Û—öO¨lÉ¹©[’œˆPÇ®'va¼åÀœ(ÖY»åL£öÚH„‹Øt¢é~'¼´OXK¤²%5dY6·–óé9'ÒÓ“øÛôÛ³ŠiÍR±ãs")g±I­E›˜ùçD>	ªÛ"å¥RŠôÙ>T6Œ»¹«ƒ¡j9X#§˜OıQî°RCäÆ‚~,yZ+œ9=;Hg×w:İ#M¾=<ü¡—Bã¿0–»ÄX8(n96uıÚ†Ê_/ë²ÎäD‡x¢±ıÚC«ÿ™µàHîğ_`Ë×7ı×O0”“?ëy¢Üş’µ{f3¶ä2è¥±ÜÍÚg¹ıœµ¬æDÙZrYË°ÊËœÿÜB‰ÂóÆrsû[hXáügkÉmåÊoÉíeĞ¶t9nÉmgN4¬?O„Û`ã?o'MÉ¦ÓÍÔãš®P“İÔhW5m\DIÖP]âñ&ÛªÉ›®KÖ?~¸ê–×tQüæ©]>Ÿå’_ª{ø¢n|šéÂN©µ#_hÓ¯½Ğ-lÎ'K–2¨5^îø3	ˆp¢@2oohÉ?\Ë¬p)'-öHÿT¬Û…õãéY5¨$×ß¼jò-›øjë6>æÉ'íŞiİk[tëëÃ³Dİ°·`$vè˜>5ĞRºñ¾cÄH‡v!k¨:²^É*0²B6ß%[Ññq0>,ŸääÂÑ'"N³ÜqC÷Ö…aÂFF‹$ÙşÔ.‡:À¨wXK7líÂ7ì0™:œÁÁ!zÆ~= Æ£—Æ
+à‹ˆ<*ˆO1ötrÇ=Cãˆ»òvÉ,œ÷Ğ©Çf˜[mo™Ëê9…Ã3ŸÅuÔ±íÁd‡­ï'°ãy"¹¦d©1 wé¨Iç:5t]2à‘eÀÕÁ"†Ô˜WèWHêtìÃVO©{8Ün+z÷‡=’?ÑOvé¹v¯š$K`n7{»®H@İŠ[¢©]ô#
+lÀ£K'q_Øpù‡Ğ]°zHvA_/dòhIÁæqwÙâİç¹Ãû`î¦H÷¾/[äáîhØÄ–AÜĞ¶áò!z„™H]S8âï¢““X%	»‡ôÄø‰r‰áóã'ğ'+aå0cÜá8·òÛğ2rİì]ÛmÆO|ebv—`÷8‹µ¸%—€1ró¶ÂqK_B8|˜b "1ò·FÁ6OŞšŒsõ–GåİGsÈÚ=&c1­SsFtdÀ+©¾~ÔÛ_”a[ºˆ.C€Êˆüt§F8úàEwÑ‰w
+ß?D!²9¸®K“¦½qK€­­nxZÒ„aêqº84ìğ6}ÕáƒnÄnæñÎ¶ë£s!^sİÆ§c\8Ş"Ù $r¥ˆfHÀ%˜@¸ªƒÒ”:}!AL·˜€ÌÙm[ÃqQ@—Ş¤1kV§áÊF<¦ÒªÍãvYb¸\ëØÒ…{}ª!Ä¼œ!š8	ZGÖ¸Ô{…´)."¼c’¥Crég-`˜øõA¥1ôFÔq”ã_ˆ\‰X†—í8„†Ã“Cr)´ğàÀfNÒßäÊ’ƒA„áTY>N2ó!ÙO†e‡4ÖM.i£ÁˆGgÙ¢7:¶9g ÷áZÑV"üŸ@–5ŸIjë#9tKÍn”F`wi,È¨,¦ÜCñƒ
+9‘I:—š¸!£îØj:•ZE'à•&‹r[H®ÏñÈj¯trÕ†Ós¢ù™ˆî„o8!Dæÿñ¶Ë$¦{ŸËƒµ6¶/šµòoÜÆ‡;~ˆĞ.6~àñí&_hå©D:F~¹q{¿âĞÆG„øèÇßÁ«ñÿã5x´–ÜrÛf1ä.È-[KnÙZrËÖ’ÛÒş	0 Ç]ê:Qmå    IEND®B`‚_=http://www.smart-words.org/linking-words/transition-words.pngOebplist00ÔjkX$versionX$objectsY$archiverT$top † ¯#)*0123MNOPQRSTUVWXYZ[\]^_`aeU$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_=http://www.smart-words.org/linking-words/transition-words.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¿™ïa¾ûÒ ÈÓ456ALWNS.keysZNS.objectsª789:;<=>?@€	€
+€€€€€€€€ªBDEFGHIJK€€€€€€€€€€€VServer\Content-TypeZConnection]Last-Modified]Accept-RangesTDate_Content-Encoding^Content-Length]Cache-ControlTVaryVApacheYimage/pngZkeep-alive_Thu, 06 Mar 2014 22:42:30 GMTUbytes_Fri, 20 Oct 2017 08:36:23 GMTTgzipU21897_'max-age=604800, public, must-revalidate_Accept-EncodingÒ+,bc_NSMutableDictionary£bd/\NSDictionaryÒ+,fg_NSHTTPURLResponse£hi/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑlm_WebResourceResponse€    # - 2 7 Y _ z }  „ ‡ Š  ‘ ˜ ›  ¡ ¤ § © « ­ ¯ ± ² ´ ¶ ¸ º ¼ ¾ À Ç Ï Û İ ß á!&1:@CLUWY`hs~€‚„†ˆŠŒ’Ÿ¡£¥§©«­¯±³ºÇÒàîó#(/9DdjŠ•¿ÑÖìğı.<NQg             n              iÕ"#$%&'_WebResourceFrameNameOVG<!DOCTYPE html><html lang="en" class="gr__smart-words_org"><head>
+<meta charset="utf-8">
+
+
+<title>Transition Words &amp; Phrases</title>
+<link rel="stylesheet" href="../styles/formatsx.css" type="text/css" media="all">
+<link rel="stylesheet" href="../styles/formatp.css" type="text/css" media="print">
+<link rel="icon" type="image/ico" href="/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<meta name="generator" content="www.SELFHTML.org and notepad-plus.sourceforge.net">
+<meta name="copyright" content="Heiko Possel">
+<meta name="author" content="Heiko Possel">
+<meta name="description" content="A List of Transition Words  â€” With Examples on how to use these transitional devices in writing to connect one idea with another.">
+
+<meta name="keywords" content="transition words list connecting  transitional transitions phrases  sentences example rule comma semicolon">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="28 days">
+
+<!--
+&mdash; A complete List of English Connecting Words
+Linking and Connecting Words - Part 1/2
+-->
+<style type="text/css">
+div#content   td  {padding:0.0em 0 0.0em 0.2em;  margin: 0em 0em 0em 2em;}
+div.frame1 {}
+div.frame2 {}
+.frame1  p {font:bold		1.0em Georgia, Times; 			color:#333333;}
+div.box3 { position: relative; width: 14em;  margin:0em 0em 0em 0em; overflow:visible; float: left;}
+div.box2 { position: relative; width: 13em;  margin:0em 0em 0em 0em; overflow:visible; float: left;}
+div.box1 { position: relative; width: 17em; margin:0em 0em 0em 0em; overflow:visible; float:left;}
+.notb  { font-weight:normal;}  
+.st01 {font:bold		1.0em Georgia, Times; 			color:#FF6666;}
+.st02 {font:bold	1.2em "Arial Narrow", Arial;     	 	color:#009999;}
+.st07  {font:bold		1.0em Georgia, Times; 			color:#FF6666;}
+
+div#content   p  {margin:0.6em 1.2em 0em 1.9em;}
+div#frame1   p  {margin:0.6em 0em 0em 1.9em;}
+
+.ltxt  {font-size: 1em;  color:green; font-weight: bold; }
+
+</style>
+ 
+</head>
+<body data-gr-c-s-loaded="true">
+<div id="container">
+<div id="boxlg"><a title="Smart Words - Advanced Vocabulary" href="http://www.smart-words.org/"><img src="http://www.smart-words.org/logo.png" alt="Smart Words of the English Language">Start - Smart Words</a></div>
+<div id="header">
+<h1 title="Connecting words and transitional devices">Transition Words</h1>
+
+
+</div>
+
+<div id="nav">
+<ul class="nav1">
+<li class="big1">&nbsp;</li>
+<li class="akta"><a title="English Linking Words &amp; Connecting Words" href="/linking-words/"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">Linking Words</a></li>
+</ul>
+	<ul class="nav2">
+	<li class="akta"><a title="The most common â¤ Transition Words" href="transition-words.html"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">Transition Words</a></li>
+	<li class="aktd"><a title="The most common â¤ Conjunctions" href="conjunctions.html"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">Conjunctions</a></li>
+	<li class="aktd"><a title="A list of  common English Prepositions including examples on how to use them" href="prepositions.html"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">Prepositions</a></li>
+	</ul>
+<ul class="nav1">
+<li class="big1">&nbsp;</li>
+<li class="aktd aktz"><p><img class="bildm" src="../styles/pfeil.gif" alt="Â»">Words for</p></li>
+<li class="aktd"><a title="Synonyms â€” Category Feelings" href="/words-for/feelings/"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">... Feelings</a></li>
+<li class="aktd"><a title="Synonyms â€” Category Speech &amp; Talk" href="/words-for/speech/"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">... Speech</a></li>
+<li class="aktd"><a title="Synonyms â€” Category Action &amp; To do" href="/words-for/action/"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">... Action</a></li>
+<li class="big2">&nbsp;</li>
+<li class="aktd"><a title="List of Internet Slang / Chat / Email Acronyms" href="/abbreviations/text.html"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">Text Abbreviations</a></li>
+
+<li class="big1">&nbsp;</li>
+<li class="aktd"><a title="A list of Synonyms for the some of the 50 most often used words" href="/list-of-synonyms/"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">List of Synonyms</a></li>
+<li class="big1">&nbsp;</li>
+<li class="aktd"><a title="A list of Famous  &amp; Smart Sayings, Puns, Quotations, Idioms, etc." href="/quotes-sayings/"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">Quotes &amp; Sayings</a></li>
+<li class="big1">&nbsp;</li>
+<li class="aktd"><a title="The Top 20 Writing Tips from very successful Authors" href="/how-to-write/"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">Writing Tips</a></li>
+<li class="aktd"><a title="The best Tongue Twisters to improve your English Pronunciation" href="/tongue-twisters.html"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">Tongue Twisters</a></li>
+<li class="big1">&nbsp;</li>
+
+<li class="aktd"><a title="Disclaimer &amp; Contact Information" href="/password.html"><img class="bildm" src="../styles/pfeil.gif" alt="Â»">Disclaimer</a></li>
+</ul>
+</div>
+<div id="content">
+
+<p class="pbig2">As a "part of speech" <b>transition words</b> are used to link words, phrases or sentences. They help the reader to progress from one idea (expressed by the author) to the next idea. Thus, they help to build up coherent relationships within the text.</p>
+<h2 title="Transition Words" id="transition">Transitional Words</h2>
+<p class="pbig">This structured  list of commonly used English <b>transition words</b> â€”
+approximately 200,  can be considered as quasi complete. It can be used (by students and teachers alike) 
+to find the right expression.
+English transition words are essential, since they not only connect ideas, but also can introduce a certain shift, 
+contrast or opposition, emphasis or agreement, purpose, result or conclusion, etc. in the line of argument.
+<br>
+The transition words and phrases  have been assigned only once to somewhat artificial categories, 
+although some words belong to more than one category.
+</p>
+<p class="pbig">There is some overlapping with <a href="prepositions.html">prepositions</a> and postpositions, but for the purpose of usage and completeness of this concise guide, I did not differentiate.</p>
+
+<!-- 
+<p>Linking &amp; Connecting Words &mdash; Part 1/2</p>
+
+<div class="mentop" style="margin: 0.6em 0em 0em -10em; font-size:0.7em;">
+<ul>
+<li class="submen"> <a href="#agreement">Agreement / Addition / Similarity</a> </li>
+<li class="submen"> <a href="#opposition">Opposition / Limitation / Contradiction</a> </li>
+<li class="submen"> <a href="#example">Examples / Support / Emphasis</a> </li>
+<li class="submen"> <a href="#cause">Cause / Condition / Purpose</a> </li>
+<li class="submen"> <a href="#effect">Effect / Consequence / Result</a> </li>
+<li class="submen"> <a href="#conclusion">Conclusion / Summary / Restatement</a>  </li>
+<li class="submen"> <a href="#time">Time / Chronology / Sequence</a>  </li>
+<li class="submen"> <a href="#space">Space / Location / Place</a>  </li>
+</ul>
+</div>
+-->
+<h3 id="agreement">Agreement / Addition / Similarity</h3><p>The transition words like  <i>also, in addition, and, likewise</i>, <b>add information</b>, <b>reinforce ideas</b>, and <b>express agreement</b> with preceding material.</p>
+
+<div class="frame1">
+<p>&nbsp;</p>
+<div class="box1">
+<p>in the first place</p>
+<p>not only ... but also</p>
+<p>as a matter of fact</p>
+<p>in like manner</p>
+<p>in addition</p>
+<p>coupled with</p>
+<p>in the same fashion / way</p>
+<p>first, second, third</p>
+<p>in the light of</p>
+<p>not to mention</p>
+<p>to say nothing of</p>
+<p>equally important</p>
+<p>by the same token</p>
+
+</div>
+<div class="box2">
+
+<p>again</p>
+<p>to</p>
+<p>and</p>
+<p>also</p>
+<p>then</p>
+<p>equally</p>
+<p>identically</p>
+<p>uniquely</p>
+<p>like</p>
+<p>as</p>
+<p>too</p>
+</div>
+<div class="box3">
+<p>moreover</p>
+<p>as well as</p>
+<p>together with</p>
+<p>of course</p>
+<p>likewise</p>
+<p>comparatively</p>
+<p>correspondingly</p> 
+<p>similarly</p>
+<p>furthermore</p>
+<p>additionally</p>
+</div>
+</div> <!-- frame1-->
+<p style="clear:both;">&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3 id="opposition">Opposition / Limitation / Contradiction</h3>
+<p>Transition phrases  like <i>but</i>, <i>rather</i> and  <i>or</i>, express that there is evidence to the <b>contrary</b> or point out <b>alternatives</b>, and thus introduce a change the line of reasoning (<b>contrast</b>). </p>
+<div class="frame1">
+<p>&nbsp;</p>
+<div class="box1">
+<p>although this may be true</p>
+<p>in contrast</p>
+<p>different from</p>
+<p>of course ..., but</p>
+<p>on the other hand</p>
+<p>on the contrary</p>
+<p>at the same time</p>
+<p>in spite of</p>
+<p>even so / though</p>
+<p>be that as it may</p>
+<p>then again</p>
+<p>above all</p>
+<p>in reality</p>
+<p>after all</p>
+</div>
+<div class="box2">
+
+<p>but</p>
+<p><span class="notb">(and) </span>still</p>
+<p>unlike</p>
+<p>or</p>
+<p><span class="notb">(and) </span>yet</p>
+<p>while</p>
+<p>albeit</p>
+<p>besides</p>
+<p>as much as</p>
+<p>even though</p>
+</div>
+<div class="box3">
+
+<p>although</p>
+<p>instead</p>
+<p>whereas</p>
+<p>despite</p>
+<p>conversely</p> 
+<p>otherwise</p>
+<p>however</p>
+<p>rather</p>
+<p>nevertheless</p>
+<p>nonetheless</p>
+<p>regardless</p>
+<p>notwithstanding</p>
+</div>
+</div> <!-- frame1-->
+<p style="clear:both;">&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3 id="cause">Cause / Condition / Purpose</h3>
+<p>These transitional phrases present specific <b>conditions</b> or <b>intentions</b>.</p>
+
+<div class="frame1">
+<p>&nbsp;</p>
+<div class="box1">
+
+<p>in the event that</p>
+<p>granted (that)</p>
+<p>as / so long as</p>
+<p>on (the) condition (that)</p>
+<p>for the purpose of</p>
+<p>with this intention</p>
+<p>with this in mind</p>
+<p>in the hope that</p>
+<p>to the end that</p>
+<p>for fear that</p>
+<p>in order to</p>
+<p>seeing / being that</p>
+<p>in view of</p>
+</div>
+<div class="box2">
+
+<p>If</p>
+<p>... then</p>
+<p>unless</p>
+<p>&nbsp;</p>
+<p>when</p>
+<p>whenever</p>
+
+<p>while</p>
+<p>&nbsp;</p>
+<p>because of</p>
+<p>as</p>
+<p>since</p>
+<p>while</p>
+<p>lest</p>
+</div>
+<div class="box3">
+
+<p>in case</p>
+<p>provided that</p>
+<p>given that</p>
+<p>only / even if</p>
+<p>so that</p>
+<p>so as to</p>
+<p>owing to</p>
+<p>inasmuch as</p>
+<p>due to </p>
+
+</div>
+</div> <!-- frame1-->
+<p style="clear:both;">&nbsp;</p>
+<h3 id="example">Examples / Support / Emphasis</h3>
+<p>These transitional devices (like <i>especially</i>) are used to introduce examples as 
+<b>support</b>, to indicate <b>importance</b> or as an <b>illustration</b> so that an idea is cued to the reader.</p>
+
+<div class="frame1">
+<p>&nbsp;</p>
+<div class="box1">
+
+<p>in other words</p>
+<p>to put it differently</p>
+<p>for one thing</p>
+<p>as an illustration</p>
+<p>in this case</p>
+<p>for this reason</p>
+<p>to put it another way</p>
+<p>that is to say</p>
+<p>with attention to</p>
+<p>by all means</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>important to realize</p>
+<p>another key point</p>
+<p>first thing to remember</p>
+<p>most compelling evidence</p>
+<p>must be remembered</p>
+<p>point often overlooked</p>
+<p>to point out</p>
+<p>on the positive side</p>
+<p>on the negative side</p>
+<p>with this in mind</p>
+</div>
+<div class="box2">
+
+<p>notably</p>
+<p>including</p>
+<p>like</p>
+<p>to be sure</p>
+<p>namely</p>
+<p>chiefly</p>
+<p>truly</p>
+<p>indeed</p>
+<p>certainly</p>
+<p>surely</p>
+<p>markedly</p>
+<p>such as</p>
+<p>&nbsp;</p>
+
+<p>especially</p>
+<p>explicitly</p>
+<p>specifically</p>
+<p>expressly</p>
+<p>surprisingly</p>
+<p>frequently</p>
+<p>significantly</p>
+<p>particularly</p>
+</div>
+<div class="box3">
+<p>in fact</p>
+<p>in general</p>
+<p>in particular</p>
+<p>in detail</p>
+<p>for example</p>
+<p>for instance</p>
+<p>to demonstrate</p>
+<p>to emphasize</p>
+<p>to repeat</p>
+<p>to clarify</p>
+<p>to explain</p>
+<p>to enumerate</p>
+
+
+</div>
+</div> <!-- frame1-->
+<p style="clear:both;">&nbsp;</p><p>&nbsp;</p><h3 id="effect">Effect / Consequence / Result</h3>
+<p>Some of these transition words (<i>thus, then, accordingly, consequently, therefore, henceforth</i>) are time words that are used to show that <em>after</em> a particular time there was a <b>consequence</b> or an <b>effect</b>. </p>
+<p>Note that <i>for</i> and <i>because</i> are placed before the cause/reason. The other devices are placed before the consequences or effects. </p>
+
+<div class="frame1">
+<p>&nbsp;</p>
+<div class="box1">
+<p>as a result</p>
+<p>under those circumstances</p>
+<p>in that case</p>
+<p>for this reason</p>
+<p>in effect</p>
+</div>
+<div class="box2">
+
+<p>for</p>
+<p>thus</p>
+<p>because the</p>
+<p>then</p>
+<p>hence</p>
+
+</div>
+<div class="box3">
+<p>consequently</p>
+<p>therefore</p>
+<p>thereupon</p>
+<p>forthwith</p>
+<p>accordingly</p>
+<p>henceforth</p>
+
+</div>
+</div> <!-- frame1-->
+<p style="clear:both;">&nbsp;</p><p>&nbsp;</p>
+<h3 id="conclusion">Conclusion / Summary / Restatement</h3>
+<p>These transition words and phrases <b>conclude</b>, <b>summarize</b> and / or <b>restate</b> ideas, or  indicate a final <b>general statement</b>. Also some words (like <i>therefore</i>)  from the <b>Effect / Consequence</b> category can be used to summarize.</p>
+<div class="frame1">
+<p>&nbsp;</p>
+<div class="box1">
+<p>as can be seen</p>
+<p>generally speaking</p>
+<p>in the final analysis</p>
+<p>all things considered</p>
+<p>as shown above</p>
+<p>in the long run</p>
+<p>given these points</p>
+<p>as has been noted</p>
+<p>in a word</p>
+<p>for the most part</p>
+
+</div>
+<div class="box2">
+
+<p>after all</p>
+<p>in fact</p>
+<p>in summary</p>
+<p>in conclusion</p>
+<p>in short</p>
+<p>in brief</p>
+<p>in essence</p>
+<p>to summarize</p>
+<p>on balance</p>
+<p>altogether</p>
+<p>overall</p>
+<p>ordinarily</p>
+<p>usually</p>
+
+</div>
+<div class="box3">
+<p>by and large</p>
+<p>to sum up</p>
+<p>on the whole</p>
+<p>in any event</p>
+<p>in either case</p>
+<p>all in all</p>
+<p>&nbsp;</p>
+<p>Obviously</p>
+<p>Ultimately</p>
+<p>Definitely</p>
+
+
+
+
+
+</div>
+</div> <!-- frame1-->
+<p style="clear:both;">&nbsp;</p>
+
+<h3 id="time">Time / Chronology / Sequence</h3>
+<p>These transitional words (like <i>finally</i>) have the function of limiting, restricting, and defining <b>time</b>. They can be used either alone or as part of <em>adverbial expressions</em>.</p><div class="frame1">
+<p>&nbsp;</p>
+<div class="box1">
+<p>at the present time</p>
+<p>from time to time</p>
+<p>sooner or later</p>
+<p>at the same time</p>
+<p>up to the present time</p>
+<p>to begin with</p>
+<p>in due time</p>
+
+<p>as soon as</p>
+<p>as long as</p>
+<p>in the meantime</p>
+<p>in a moment</p>
+<p>without delay</p>
+<p>in the first place</p>
+<p>all of a sudden</p>
+<p>at this instant</p>
+<p>first, second</p>
+<p>&nbsp;</p>
+<p>immediately</p>
+<p>quickly</p>
+<p>finally</p>
+</div>
+<div class="box2">
+
+<p>after</p>
+<p>later</p>
+<p>last</p>
+<p>until</p>
+<p>till</p>
+<p>since</p>
+<p>then</p>
+<p>before</p>
+<p>hence</p>
+<p>since</p>
+<p>when</p>
+<p>once</p>
+<p>about</p>
+<p>next</p>
+<p>now</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>formerly</p>
+<p>suddenly</p>
+<p>shortly</p>
+
+</div>
+<div class="box3">
+<p>henceforth</p>
+<p>whenever</p>
+
+<p>eventually</p>
+<p>meanwhile</p>
+<p>further</p>
+<p>during</p>
+
+<p>in time</p>
+<p>prior to</p>
+
+<p>forthwith</p>
+<p>straightaway</p>
+<p>&nbsp;</p>
+<p>by the time</p>
+<p>whenever</p>
+<p>&nbsp;</p>
+<p>until now</p>
+<p>now&nbsp;that</p>
+<p>&nbsp;</p>
+<p>instantly</p>
+<p>presently</p>
+<p>occasionally</p>
+<p></p>
+
+</div>
+</div> <!-- frame1-->
+<p style="clear:both;">&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>Many transition  words in the time category (<i>consequently; first, second, third; further; hence; henceforth; since; then, when; and whenever</i>) have other uses. </p>
+<p>Except for the numbers (<i>first, second, third</i>) and <i>further</i> they add a meaning of <b>time</b> in expressing conditions, qualifications, or reasons. The numbers are also used to <b>add information</b> or <b>list examples</b>. <i>Further</i> is also used to indicate added space as well as added time.</p>
+<p>&nbsp;</p>
+<h3 id="space">Space / Location / Place </h3>
+
+<p>These transition words are often used as part of <em>adverbial expressions</em> and have the function to restrict, limit or qualify <b>space</b>. Quite a few of these are also found in the <b>Time</b> category and can be used to describe  spatial order or spatial reference.</p>
+
+<div class="frame1">
+<p>&nbsp;</p>
+<div class="box1">
+<p>in the middle</p>
+<p>to the left/right</p>
+<p>in front of</p>
+<p>on this side</p>
+<p>in the distance</p>
+<p>here and there</p>
+<p>in the foreground</p>
+<p>in the background</p>
+<p>in the center of</p>
+<p>&nbsp;</p>
+<p>adjacent to</p>
+<p>opposite to&nbsp;</p>
+</div>
+<div class="box2">
+<p>here</p>
+<p>there</p>
+<p>next</p>
+<p>where</p>
+<p>from</p>
+<p>over</p>
+<p>near</p>
+<p>above</p>
+<p>below</p>
+<p>down</p>
+<p>up</p>
+<p>under</p>
+<p></p>
+</div>
+<div class="box3">
+<p>further</p>
+
+<p>beyond</p>
+<p>nearby</p>
+<p>wherever</p>
+<p>around</p>
+<p>between</p>
+<p>before</p>
+<p>alongside</p>
+
+<p>amid</p>
+<p>among</p>
+<p>beneath</p>
+<p>beside</p>
+
+<p>behind</p>
+<p>across</p>
+
+<p></p>
+<p></p>
+<p></p>
+
+</div>
+</div> <!-- frame1-->
+<p style="clear:both;">&nbsp;</p>
+<hr>
+<p>&nbsp;</p><h2>List of Transition Words</h2>
+<div class="bild-down">
+<a title="Transition Words - how to use them" href="http://www.smart-words.org/linking-words/transition-words.png">
+<img style="width: 33%;" src="transition-words.png" alt="Transition Words &amp; Phrases"></a>
+<p>Transition Words are also sometimes called (or put in the category of) Connecting Words. 
+Please feel free to <em>download</em> them via this link to the category page:<br> 
+  <a title="Complete List of English Linking Words" href="./#download">Linking Words &amp; Connecting Words</a> as a PDF.<br><br>  
+ It contains all the <b>transition words</b> listed on this site. The image to the left gives you an impression how it looks like.</p>
+<p>&nbsp;</p>
+
+
+<p>&nbsp;</p>
+</div>
+
+<h2 title="Rules for applying Transition Words and Phrases" id="usage">Usage of Transition Words in Essays</h2>
+<p>Transition words and phrases are vital devices for  <b>essays</b>, papers or  other literary compositions. They improve the connections and transitions between sentences and paragraphs. They thus give the text a logical organization and structure (see also: a  <a title="A comprehensive List - Often used Synonyms" href="/list-of-synonyms/">List of Synonyms</a>).</p>
+
+<p>All English <b>transition words</b> and  <b>phrases</b> (sometimes also called 'conjunctive adverbs') do the same work as <b>coordinating conjunctions</b>: they connect two words, phrases or clauses  together and thus the text is easier to read and the coherence is improved.
+</p>
+<br>
+<p>Usage: transition words   are used with a special rule for <b>punctuation</b>: a semicolon or a period is used after the first 'sentence', and a comma is almost always used to set off the transition word from the second 'sentence'.</p>
+<h5 style="margin: 0 0 0 4em;">Example 1: <br>People use 43 muscles when they frown; however, they use only 28 muscles when they smile.</h5>
+<p>&nbsp;</p>
+<h5 style="margin: 0 0 0 4em;">Example 2: <br>However, transition words can also be placed at the beginning of a new paragraph or sentence - not only to indicate a step forward in the reasoning, but also to relate the new material to the preceding thoughts.</h5>
+
+<p>Use a semicolon to connect sentences, only if the group of words on either side of the semicolon is a complete sentence each (both must have a subject and a verb, and could thus stand alone as a complete thought).</p>
+
+<p>&nbsp;</p>
+
+<!-- Kommentar Anfang
+<P><CENTER>
+<FONT COLOR="#ff6666" SIZE="+4" FACE="Snap ITC">T</FONT>
+<FONT COLOR="#ffcc33" SIZE="+3" FACE="Snap ITC">r</FONT>
+<FONT COLOR="#3366ff" SIZE="+3" FACE="Snap ITC">a</FONT>
+<FONT COLOR="#ff6600" SIZE="+3" FACE="Snap ITC">n</FONT>
+<FONT COLOR="#66ff99" SIZE="+3" FACE="Snap ITC">s</FONT>
+<FONT COLOR="#ffcccc" SIZE="+3" FACE="Snap ITC">i</FONT>
+<FONT COLOR="#ccffff" SIZE="+3" FACE="Snap ITC">t</FONT>
+<FONT COLOR="#ffcc00" SIZE="+3" FACE="Snap ITC">i</FONT>
+<FONT COLOR="#993366" SIZE="+3" FACE="Snap ITC">o</FONT>
+<FONT COLOR="#ffff99" SIZE="+3" FACE="Snap ITC">n</FONT>
+<FONT COLOR="#009900" SIZE="+3" FACE="Snap ITC">a</FONT>
+<FONT COLOR="#ff99ff" SIZE="+3" FACE="Snap ITC">l</FONT>
+<FONT COLOR="#ffffff" SIZE="+4" FACE="Snap ITC">&nbsp;</FONT>
+<FONT COLOR="#3333ff" SIZE="+4" FACE="Snap ITC">W</FONT>
+<FONT COLOR="#ff6666" SIZE="+3" FACE="Snap ITC">o</FONT>
+<FONT COLOR="#ffcc33" SIZE="+3" FACE="Snap ITC">r</FONT>
+<FONT COLOR="#33ff33" SIZE="+3" FACE="Snap ITC">d</FONT>
+<FONT COLOR="#cc6600" SIZE="+3" FACE="Snap ITC">s</FONT>
+</CENTER></P>
+<a href="http://www.smart-words.org/transition-words.html" title="Linking Words"></a>
+Kommentar Ende --> 
+<!-- 
+<hr />
+<p>&nbsp;</p>
+
+<ul class="hcf-pager">
+<li class="hcf-first hcf-active"><a href="transition-words.html" title="List of Transition Words">1</a></li>
+<li class="hcf-first"><a href="conjunctions.html" title="List of Conjunctions">2</a></li>
+
+<li class="hcf-first hcf-active" title="Connecting Words">1</li>
+<li><a href="http://www.smart-words.org/conjunctions-list.html" title="Linking Words">2</a></li>
+
+</ul>
+-->
+
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>Further helpful readings about expressions, writing and grammar:  
+Compilation of Writing Tips
+<a href="http://www.smart-words.org/how-to-write-good.html">How to write good</a>  &nbsp; Â¦ &nbsp;
+Correct Spelling   
+<a href="http://www.smart-jokes.org/english-university-study.html">Study by an English University</a> 
+</p>
+
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p>Are you using WORD for writing professional texts and essays? There are many easy  
+
+<a title="List of useful Windows Shortcuts" href="http://www.system-overload.org/windows-shortcuts.html">Windows Shortcuts</a>  available which work (almost) system-wide (e.g. in every programm you use).  
+<!--  See this list of    &nbsp; &mdash;  &nbsp;  and which can make life a lost easier. -->
+</p>
+
+
+</div>
+<div id="foot">
+<!-- track-id1 -->
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+
+
+</div>
+</div>
+
+
+<div class="grammarly-disable-indicator"></div></body></html>Ytext/htmlUUTF-8_>http://www.smart-words.org/linking-words/transition-words.htmlP            1   7   B   T   j   ˆ   —   ­  9Ì  9Õ  9Û  :  >  >Œ  IM  I}  Mğ  Mù  Z«  Zµ  ZÛ  _)  _2  _u  _  _­  c²  c»  ºä  »$  ¿  ¿˜  ¿¯ ú  
+ K             (             L
